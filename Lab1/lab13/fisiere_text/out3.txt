@@ -1,0 +1,1795 @@
+"I
+0 2004 "I Love You
+0 2009 "Eat
+0 2010 "Definitely
+0 2008 "Synecdoche
+0 2008 "Sex
+0 1989 "Welcome Home
+0 2008 "Good Night
+0 2005 "O Brother
+0 2000 "Legally Blonde 2: Red
+0 2003 "Good Morning
+0 1987 "You
+0 2006 "Bon Cop
+0 2006 "Wo hu cang long (Crouching Tiger
+0 2000 "Lock
+0 1998 "Yours
+0 2005 "The Chronicles of Narnia: The Lion
+0 2005 "Girl
+0 1999 "Dude
+0 2000 "Monsters
+0 2001 Primer
+7000 2004 El Mariachi
+7000 1992 Pink Flamingos
+12000 1972 Slacker
+23000 1991 In the Company of Men
+25000 1997 Clerks.
+27000 1994 Funny Ha Ha
+30000 2002 Tiny Furniture
+50000 2010 The Signal
+50000 2007 Supporting Characters
+60000 2012 Pi
+68000 1998 Eraserhead
+100000 1977 Your Sister&#39;s Sister
+120000 2011 The Texas Chain Saw Massacre
+140000 1974 The Towering Inferno
+140000 1974 Once
+150000 2006 Another Earth
+175000 2011 Weekend
+190000 2011 The Man from Earth
+200000 2007 Yesterday Was a Lie
+200000 2009 Urbania
+225000 2000 Like Crazy
+250000 2011 Chasing Amy
+250000 1997 The Incredibly True Adventures of Two Girls in Love
+250000 1995 Lovely and Amazing
+250000 2001 Love and Other Catastrophes
+250000 1996 When the Cat&#39;s Away
+300000 1996 Sisters in Law
+300000 2005 Pieces of April
+300000 1993 Wendy and Lucy
+300000 2008 The Evil Dead
+375000 1981 Napoleon Dynamite
+400000 2004 Monty Python and the Holy Grail
+400000 1975 Quinceanera
+400000 2006 My Beautiful Laundrette
+400000 1985 Brick
+450000 2005 Conversations with Other Women
+450000 2005 Paranormal Activity
+450000 2007 Fireproof
+500000 2008 Monsters
+500000 2010 The Blair Witch Project
+600000 1999 L.I.E.
+700000 2001 Undead
+750000 2003 Safety Not Guaranteed
+750000 2012 American Graffiti
+777000 1973 Dead Snow
+800000 2009 Kill List
+800000 2011 Welcome to the Dollhouse
+800000 1995 London To Brighton
+825000 2006 Circumstance
+900000 2011 Hard Candy
+950000 2005 Orgazmo
+1000000 1997 Hellraiser
+1000000 1987 Junebug
+1000000 2005 Beyond the Valley of the Dolls
+1000000 1970 Frozen River
+1000000 2008 October Baby
+1000000 2011 Rocky
+1000000 1976 The Future
+1000000 2011 Taxi Driver
+1000000 1976 Walking and Talking
+1000000 1996 Blue Valentine
+1000000 2010 Transamerica
+1000000 2005 Wristcutters: A Love Story
+1000000 2006 Ajami
+1000000 2009 Chernobyl Diaries
+1000000 2012 The Devil Inside
+1000000 2012 Safe Men
+1000000 1998 Martha Marcy May Marlene
+1000000 2011 Waiting...
+1125000 2005 Blue Like Jazz
+1200000 2012 Monsoon Wedding
+1200000 2001 Reservoir Dogs
+1200000 1992 But I&#39;m a Cheerleader
+1200000 1999 Saw
+1200000 2004 The Rocky Horror Picture Show
+1200000 1975 Friday the 13th Part 2
+1250000 1981 Festen (The Celebration)
+1300000 1998 The Girlfriend Experience
+1300000 2009 Repo Man
+1500000 1984 The To Do List
+1500000 2013 The Ballad of Jack and Rose
+1500000 2005 Cabin Fever
+1500000 2002 Buffalo &#39;66
+1500000 1998 Kissing Jessica Stein
+1500000 2001 The Squid and the Whale
+1500000 2005 Bloodsport
+1500000 1988 Waitress
+1500000 2007 Insidious
+1500000 2010 Pontypool
+1500000 2008 The Conversation
+1600000 1974 My Summer of Love
+1700000 2004 May
+1750000 2002 I Spit on Your Grave
+1750000 1978 Run Lola Run
+1750000 1998 Higher Ground
+1800000 2011 Songcatcher
+1800000 2000 The Last Exorcism
+1800000 2010 Beasts of the Southern Wild
+1800000 2012 Nowhere Boy
+1900000 2009 Submarine
+1900000 2010 Machete Kills
+2000000 2013 Me and You and Everyone We Know
+2000000 2005 Les triplettes de Belleville
+2000000 2003 Before Sunset
+2000000 2004 Clockwatchers
+2000000 1997 Boys Don&#39;t Cry
+2000000 1999 Sleeper
+2000000 1973 Das Leben Der Anderen
+2000000 2006 Teeth
+2000000 2007 Get Real
+2000000 1998 Thirteen
+2000000 2003 Shortbus
+2000000 2006 Smoke Signals
+2000000 1998 Winter&#39;s Bone
+2000000 2010 Meek&#39;s Cutoff
+2000000 2010 Sherrybaby
+2000000 2006 Hamlet
+2000000 1996 Waltz with Bashir
+2000000 2008 Strangers with Candy
+2000000 2005 [Rec]
+2100000 2007 The French Connection
+2200000 1971 Friday the 13th Part III
+2250000 1982 Escape from the Planet of the Apes
+2500000 1971 Garden State
+2500000 2004 Super
+2500000 2010 That Thing You Do!
+2500000 1996 Before Sunrise
+2500000 1995 Halloween II
+2500000 1981 Friday the 13th Part IV: The Final Chapter
+2600000 1984 Blazing Saddles
+2600000 1974 Diary of the Dead
+2750000 2007 Young Frankenstein
+2800000 1974 Hustle &amp; Flow
+2800000 2005 Cinderella
+2900000 1997 Boynton Beach Club
+2900000 2005 Paranormal Activity 2
+3000000 2010 Freeway
+3000000 1996 Water
+3000000 2005 Jawbreaker
+3000000 1999 Sinister
+3000000 2012 Real Women Have Curves
+3000000 2002 Family Plot
+3000000 1976 The Purge
+3000000 2013 Animal House
+3000000 1978 Willy Wonka &amp; the Chocolate Factory
+3000000 1971 Days of Heaven
+3000000 1978 Fish Tank
+3000000 2009 Please Give
+3000000 2010 Super Troopers
+3000000 2001 Happiness
+3000000 1998 Hobo with a Shotgun
+3000000 2011 Air Bud
+3000000 1997 The Divide
+3000000 2011 Trainspotting
+3100000 1996 Adam
+3200000 2009 Maria Full of Grace
+3200000 2004 Beginners
+3200000 2010 The Dead Girl
+3300000 2006 August
+3400000 1996 High Anxiety
+3400000 1977 Margin Call
+3400000 2011 Jagten
+3450000 2012 Evil Dead II
+3500000 1987 D.E.B.S.
+3500000 2004 Airplane!
+3500000 1980 The History Boys
+3700000 2006 Network
+3800000 1976 Porky&#39;s
+4000000 1982 The Rules of Attraction
+4000000 2002 The Visitor
+4000000 2007 The Kids Are All Right
+4000000 2010 1776
+4000000 1972 Four rooms
+4000000 1995 Red State
+4000000 2011 The Last Exorcism Part II
+4000000 2013 Annie Hall
+4000000 1977 Lost In Translation
+4000000 2003 A Lonely Place to Die
+4000000 2011 The Crying Game
+4000000 1992 Bug
+4000000 2006 They Live
+4000000 1988 MirrorMask
+4000000 2005 Saving Grace
+4000000 2000 Animal Kingdom
+4200000 2010 Whale Rider
+4300000 2002 Paa
+4300000 2009 Sexy Beast
+4300000 2000 One Flew Over the Cuckoo&#39;s Nest
+4400000 1975 Silent Movie
+4400000 1976 Police Academy
+4500000 1984 L&aring;t den r&auml;tte komma in (Let the Right One In)
+4500000 2008 Chinjeolhan geumjassi
+4500000 2005 Spun
+4500000 2002 Life During Wartime
+4500000 2009 Fast Times at Ridgemont High
+4500000 1982 Blackthorn
+4500000 2011 Secrets &amp; Lies
+4500000 1996 Requiem for a Dream
+4500000 2000 25th Hour
+4500000 2002 Donnie Darko
+4500000 2001 Bound
+4500000 1996 Take Shelter
+4750000 2011 Tristram Shandy: A Cock and Bull Story
+4750000 2005 Hostel
+4800000 2005 Billy Elliot
+5000000 2000 Our Idiot Brother
+5000000 2011 Eve&#39;s Bayou
+5000000 1997 Insidious: Chapter 2
+5000000 2013 Saved!
+5000000 2004 Everything Must Go
+5000000 2010 Monster
+5000000 2003 Crocodile Dundee
+5000000 1986 Tucker and Dale vs Evil
+5000000 2010 Paranormal Activity 4
+5000000 2012 Apollo 18
+5000000 2011 Slums of Beverly Hills
+5000000 1998 Sunshine Cleaning
+5000000 2008 Rabbit Hole
+5000000 2010 Shaun of the Dead
+5000000 2004 Spring Breakers
+5000000 2012 UHF
+5000000 1989 The Way Way Back
+5000000 2013 Saw II
+5000000 2005 Clerks II
+5000000 2006 Moon
+5000000 2009 Paranormal Activity 3
+5000000 2011 My Big Fat Greek Wedding
+5000000 2002 Diner
+5000000 1982 Memento
+5000000 2000 Somewhere in Time
+5100000 1980 Rang De Basanti
+5300000 2006 Ghost World
+5500000 2001 The Sting
+5500000 1973 Don Jon
+5500000 2013 Le Havre
+5500000 2011 Iris
+5500000 2011 Bend It Like Beckham
+5600000 2002 Emma
+5900000 1996 Videodrome
+5952000 1983 The Guard
+6000000 2011 Snow Flower and the Secret Fan
+6000000 2011 Julia
+6000000 1977 Grease
+6000000 1978 The Words
+6000000 2012 Hedwig and the Angry Inch
+6000000 2001 Little Voice
+6000000 1998 Shattered Glass
+6000000 2003 The Usual Suspects
+6000000 1995 Mystic Pizza
+6000000 1988 Escape from New York
+6000000 1981 The Wrestler
+6000000 2008 Sliding Doors
+6000000 1998 Best in Show
+6000000 2000 Platoon
+6000000 1986 Mallrats
+6100000 1995 Goodbye Lenin!
+6400000 2003 The Terminator
+6400000 1984 Friends with Money
+6500000 2006 Go!
+6500000 1999 The Messenger
+6500000 2009 Layer Cake
+6500000 2004 A Home at the End of The World
+6500000 2004 Shame
+6500000 2011 Nowhere in Africa
+6500000 2001 Tropa de Elite
+6537890 2007 Perrier&#39;s Bounty
+6600000 2009 Dazed and Confused
+6900000 1993 A Single Man
+7000000 2009 The Last Temptation of Christ
+7000000 1988 Hesher
+7000000 2011 Nikita
+7000000 1990 Buffy the Vampire Slayer
+7000000 1992 Capote
+7000000 2005 A Serious Man
+7000000 2009 Juno
+7000000 2007 Get Low
+7000000 2009 The Devil&#39;s Rejects
+7000000 2005 Stargate: The Ark of Truth
+7000000 2008 Flashdance
+7000000 1983 Jumping the Broom
+7000000 2011 The Descent
+7000000 2005 Darkness Falls
+7000000 2003 Action Jackson
+7000000 1988 Rabbit-Proof Fence
+7000000 2002 The Boondock Saints
+7000000 1999 Gerry
+7000000 2002 Dark Angel (I Come in Peace)
+7000000 1990 Mother and Child
+7000000 2009 The Godfather
+7000000 1972 Cyrus
+7000000 2010 Fargo
+7000000 1996 Somewhere
+7000000 2010 Logan&#39;s Run
+7000000 1976 Persepolis
+7300000 2007 Harry Brown
+7300000 2009 Crash
+7303082 2004 Hostel: Part II
+7500000 2007 (500) Days of Summer
+7500000 2009 Shopgirl
+7500000 2005 An Education
+7500000 2009 Thank You for Smoking
+7500000 2005 Swimming Pool
+7800000 2003 The Good Girl
+8000000 2002 Dear Wendy
+8000000 2005 28 Days Later...
+8000000 2002 Stand By Me
+8000000 1986 Little Miss Sunshine
+8000000 2006 Akira
+8000000 1988 Pulp Fiction
+8000000 1994 The Player
+8000000 1992 The Secret of Kells
+8000000 2009 Easy A
+8000000 2010 50/50
+8000000 2011 Brooklyn Rules
+8000000 2007 Fido
+8000000 2006 American Psycho
+8000000 2000 Akeelah and the Bee
+8000000 2006 Splash
+8000000 1984 Restless
+8000000 2011 The Boondock Saints II: All Saints Day
+8000000 2009 Wild Target
+8000000 2010 Much Ado About Nothing
+8000000 2012 It&#39;s Kind of a Funny Story
+8000000 2010 Another Year
+8000000 2010 Made In Dagenham
+8000000 2010 8 femmes
+8000000 2002 The Wind That Shakes the Barley
+8300000 2006 The City of Your Final Destination
+8300000 2009 Bright Star
+8500000 2009 Election
+8500000 1999 The Lost Boys
+8500000 1987 The Vow
+8738320 2012 Henry V
+9000000 1989 Harold and Kumar Go to White Castle
+9000000 2004 Black Christmas
+9000000 1974 The Legend of Suriyothai
+9000000 2001 Veronika Decides to Die
+9000000 2009 Child&#39;s Play
+9000000 1988 The Way of the Gun
+9000000 2000 The Savages
+9000000 2007 Alien
+9000000 1979 Igby Goes Down
+9000000 2002 The Strangers
+9000000 2008 Set It Off
+9000000 1996 Hamlet 2
+9000000 2008 All or Nothing
+9000000 2002 Velvet Goldmine
+9000000 1998 Black Christmas
+9000000 2006 Boiler Room
+9000000 2000 Heavy Metal
+9300000 1981 Volver
+9400000 2006 Melancholia
+9400000 2011 Poltergeist III
+9500000 1988 The Runaways
+9500000 2010 Amour
+9700000 2012 Adventureland
+9800000 2009 Gunless
+9900000 2010 Bring It On
+10000000 2000 Cecil B. Demented
+10000000 2000 The Fourth Kind
+10000000 2009 The Gift
+10000000 2000 Good Will Hunting
+10000000 1997 The Best Exotic Marigold Hotel
+10000000 2011 Precious: Based on the Novel Push by Sapphire
+10000000 2009 Coriolanus
+10000000 2011 I Am Love
+10000000 2010 Skyline
+10000000 2010 The Mighty Ducks
+10000000 1992 White Noise
+10000000 2005 Sparkle
+10000000 2012 Valentine
+10000000 2001 Dogma
+10000000 1999 High Heels and Low Lifes
+10000000 2001 Welcome to the Rileys
+10000000 2010 Jeepers Creepers
+10000000 2001 Devil
+10000000 2010 Shaolin Soccer
+10000000 2001 Detention
+10000000 2011 Drop Dead Gorgeous
+10000000 1999 Sparkle
+10000000 1976 Black and White
+10000000 1999 The Banger Sisters
+10000000 2002 Office Space
+10000000 1999 Body Double
+10000000 1984 American History X
+10000000 1998 Nick and Norah&#39;s Infinite Playlist
+10000000 2008 Rushmore
+10000000 1998 Commando
+10000000 1985 Snatch.
+10000000 2000 Tremors
+10000000 1990 White Noise 2: The Light
+10000000 2007 Bill &amp; Ted&#39;s Excellent Adventure
+10000000 1989 Wrong Turn
+10000000 2003 The Grudge
+10000000 2004 Road House
+10000000 1989 Eulogy
+10000000 2004 Police Academy: Mission to Moscow
+10000000 1994 The Good Guy
+10000000 2009 E.T.: The Extra-Terrestrial
+10500000 1982 Poltergeist
+10700000 1982 Phone Booth
+11000000 2002 Cruel Intentions
+11000000 1999 History of the World: Part I
+11000000 1981 Gremlins
+11000000 1984 Star Wars
+11000000 1977 High School Musical 3: Senior Year
+11000000 2008 Jackass Number Two
+11000000 2006 Kinsey
+11000000 2004 The Fighter
+11000000 2010 The Secret Life of Bees
+11000000 2008 Barry Lyndon
+11000000 1975 Army of Darkness
+11000000 1992 My Cousin Vinny
+11000000 1992 Vera Drake
+11000000 2004 Major League
+11000000 1989 St. Trinian&#39;s
+11400000 2007 Rounders
+12000000 1998 Nebraska
+12000000 2013 American Pie
+12000000 1999 Ace Ventura: Pet Detective
+12000000 1994 Girl with a Pearl Earring
+12000000 2003 Ravenous
+12000000 1999 Chronicle
+12000000 2012 Young Adult
+12000000 2011 Jaws
+12000000 1975 Jackie Brown
+12000000 1997 Faster
+12000000 2010 Crank
+12000000 2006 Star Trek: The Wrath of Khan
+12000000 1982 Think Like a Man
+12000000 2012 Ondine
+12000000 2009 Quarantine
+12000000 2008 The Eye
+12000000 2008 2046
+12000000 2004 Time Bandits
+12000000 1981 Frida
+12000000 2002 The Dangerous Lives of Altar Boys
+12000000 2002 The Muppet Christmas Carol
+12000000 1992 Aquamarine
+12000000 2006 Charlie Bartlett
+12000000 2007 For Your Consideration
+12000000 2006 Act of Valor
+12000000 2012 The Exorcist
+12000000 1973 Running with Scissors
+12000000 2006 WarGames
+12000000 1983 Das Boot
+12000000 1981 Rachel Getting Married
+12000000 2008 About Time
+12000000 2013 Crossroads
+12000000 2002 In the Cut
+12000000 2003 The Land Before Time
+12300000 1988 Machete
+12500000 2010 Casino Jack
+12500000 2010 Cat People
+12500000 1982 Conviction
+12500000 2010 Glengarry Glen Ross
+12500000 1992 Antwone Fisher
+12500000 2002 Dancer in the Dark
+12500000 2000 Lars and the real Girl
+12500000 2007 Harriet the Spy
+13000000 1996 Save the Last Dance
+13000000 2001 54
+13000000 1998 Paris je t&#39;aime
+13000000 2006 Dick
+13000000 1999 Admission
+13000000 2013 Child&#39;s Play 2
+13000000 1990 The Call
+13000000 2013 Womb
+13000000 2010 Attack the Block
+13000000 2011 10 Things I Hate About You
+13000000 1999 21 &amp; Over
+13000000 2013 The Mist
+13000000 2007 Young Guns
+13000000 1988 The Killer Inside Me
+13000000 2010 Letters from Iwo Jima
+13000000 2006 The Butterfly Effect
+13000000 2004 Black Swan
+13000000 2010 Being John Malkovich
+13000000 1999 Chloe
+13000000 2009 The Godfather: Part II
+13000000 1974 I Love You Phillip Morris
+13000000 2009 Seven Psychopaths
+13500000 2012 Far from Heaven
+13500000 2002 Clueless
+13700000 1995 Brokeback Mountain
+13900000 2005 Dangerous Liaisons
+14000000 1988 Margaret
+14000000 2011 First Blood
+14000000 1982 A Perfect Getaway
+14000000 2009 Crooklyn
+14000000 1994 Fatal Attraction
+14000000 1987 Jason X
+14000000 2001 My Bloody Valentine 3D
+14000000 2009 Cool Runnings
+14000000 1993 White Fang
+14000000 1991 The Iron Lady
+14000000 2011 Urban Legend
+14000000 1998 Little Children
+14000000 2006 Easy Virtue
+14000000 2008 Slumdog Millionaire
+14000000 2008 The Lucky Ones
+14000000 2008 Pretty Woman
+14000000 1990 Romeo + Juliet
+14500000 1996 Groundhog Day
+14600000 1993 You Will Meet a Tall Dark Stranger
+15000000 2010 Transsiberian
+15000000 2008 Disturbing Behavior
+15000000 1998 In Bruges
+15000000 2008 Banlieue 13
+15000000 2004 Home Alone
+15000000 1990 Private Benjamin
+15000000 1980 Centurion
+15000000 2010 The Queen
+15000000 2006 The Hurt Locker
+15000000 2008 The Faculty
+15000000 1998 When a Stranger Calls
+15000000 2006 Killing Them Softly
+15000000 2012 The Place Beyond the Pines
+15000000 2012 Diary of a Wimpy Kid
+15000000 2010 Idlewild
+15000000 2006 The King&#39;s Speech
+15000000 2010 Halloween
+15000000 2007 The Big Lebowski
+15000000 1998 Tuck Everlasting
+15000000 2002 Drive
+15000000 2011 Top Gun
+15000000 1986 Mama
+15000000 2013 Brazil
+15000000 1985 Beverly Hills Cop
+15000000 1984 Scream
+15000000 1996 American Beauty
+15000000 1999 The Remains of the Day
+15000000 1993 Never Let Me Go
+15000000 2010 Where the Heart Is
+15000000 2000 Little Women
+15000000 1994 28 Weeks Later
+15000000 2007 The Craft
+15000000 1996 Whip It
+15000000 2009 Country Strong
+15000000 2010 The Wedding Date
+15000000 2005 Halloween
+15000000 1978 Whatever Works
+15000000 2009 The Man with the Iron Fists
+15000000 2012 The Color Purple
+15000000 1985 Boogie Nights
+15000000 1997 Grosse Pointe Blank
+15000000 1997 Lethal Weapon
+15000000 1987 Kiss Kiss Bang Bang
+15000000 2005 The Importance of Being Earnest
+15000000 2002 The Deer Hunter
+15000000 1978 Peeples
+15000000 2013 The Princess Bride
+15000000 1987 Love &amp; Basketball
+15000000 2000 Tootsie
+15000000 1982 Beetle Juice
+15000000 1988 Mulholland Dr.
+15000000 2001 Match Point
+15000000 2005 Twins
+15000000 1988 The Woman in Black
+15000000 2012 All About Steve
+15000000 2009 The Clan of the Cave Bear
+15000000 1986 Ramona and Beezus
+15000000 2010 Slither
+15250000 2006 High Plains Drifter
+15700000 1973 Radio Days
+16000000 1987 The Messengers
+16000000 2007 My Stepmother Is an Alien
+16000000 1988 Dumb &amp; Dumber
+16000000 1994 Moonrise Kingdom
+16000000 2012 The Unborn
+16000000 2009 People Like Us
+16000000 2012 Trance
+16000000 2013 Hot Fuzz
+16000000 2007 El laberinto del fauno (Pan's Labyrinth)
+16000000 2006 Highlander
+16000000 1986 The Artist
+16000000 2011 Vicky Cristina Barcelona
+16000000 2008 Jennifer&#39;s Body
+16000000 2009 The Women
+16000000 2008 Remember Me
+16000000 2010 Enter the Void
+16000000 2009 The Roommate
+16000000 2011 White Oleander
+16000000 2002 Dead Poets Society
+16400000 1989 Becoming Jane
+16500000 2007 Sense and Sensibility
+16500000 1995 The Illusionist
+16500000 2010 Sydney White
+16500000 2007 The Illusionist
+16500000 2006 House of Sand and Fog
+16500000 2003 Sideways
+17000000 2004 Superman IV: The Quest for Peace
+17000000 1987 Pitch Perfect
+17000000 2012 Southland Tales
+17000000 2006 Friday the 13th
+17000000 1980 Aliens
+17000000 1986 Brooklyn&#39;s Finest
+17000000 2009 Friday the 13th
+17000000 2009 I Know What You Did Last Summer
+17000000 1997 The Others
+17000000 2001 Evil Dead
+17000000 2013 Smokin&#39; Aces
+17000000 2006 Beastly
+17000000 2011 Halloween H20: 20 Years Later
+17000000 1998 TRON
+17000000 1982 Superbad
+17500000 2007 Hitman
+17500000 2007 Hoodwinked!
+17500000 2005 Red Sonja
+17900000 1985 Raging Bull
+18000000 1980 Day of the Dead
+18000000 1985 Troop Beverly Hills
+18000000 1989 Mean Girls
+18000000 2004 Blue Jasmine
+18000000 2013 Ed Wood
+18000000 1994 Fame
+18000000 1980 I Come with the Rain
+18000000 2009 Center Stage
+18000000 2000 Legally Blonde
+18000000 2001 127 Hours
+18000000 2010 Austin Powers: International Man of Mystery
+18000000 1997 Spy Hard
+18000000 1996 The Mask
+18000000 1994 Star Trek III: The Search for Spock
+18000000 1984 Peggy Sue Got Married
+18000000 1986 Predator
+18000000 1987 Youth in Revolt
+18000000 2009 The Last Station
+18000000 2009 The Fog
+18000000 2005 Conan the Destroyer
+18000000 1984 Day of the Dead
+18000000 2008 Borat: Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan
+18000000 2006 The Fog
+18000000 1980 Amadeus
+18000000 1984 Soul Surfer
+18000000 2011 Gosford Park
+18000000 2001 Prom Night
+18000000 2008 The Exorcism of Emily Rose
+18000000 2005 RocknRolla
+18000000 2008 Diary of a Wimpy Kid: Rodrick Rules
+18000000 2011 Fear and Loathing in Las Vegas
+18500000 1998 Adaptation
+18500000 2002 The Amityville Horror
+18500000 2005 The Invention of Lying
+18500000 2009 The Amityville Horror
+18500000 1979 Gone Baby Gone
+19000000 2007 Thir13en Ghosts
+19000000 2001 Bad Teacher
+19000000 2011 A Cinderella Story
+19000000 2004 The Switch
+19000000 2010 Won&#39;t Back Down
+19000000 2012 Back to the Future
+19000000 1985 The Shining
+19000000 1980 The Book Thief
+19000000 2013 The Crazies
+19000000 2010 The Frozen Ground
+19200000 2013 The Painted Veil
+19400000 2006 Edward Scissorhands
+20000000 1990 Vampires (John Carpenter&#39;s)
+20000000 1998 A Dangerous Method
+20000000 2011 Conan the Barbarian
+20000000 2011 Wild Things
+20000000 1998 Daybreakers
+20000000 2009 Ghost Town
+20000000 2008 Kung Fu Hustle
+20000000 2004 Eternal Sunshine of the Spotless Mind
+20000000 2004 Let Me In
+20000000 2010 The Brothers Bloom
+20000000 2008 Three Kingdoms: Resurrection of the Dragon
+20000000 2008 The Silence of the Lambs
+20000000 1991 The Tempest
+20000000 2010 Beverly Hills Cop II
+20000000 1987 From Dusk Till Dawn
+20000000 1996 The Conjuring
+20000000 2013 Mortal Kombat
+20000000 1995 Team America: World Police
+20000000 2004 The Bank Job
+20000000 2008 High Fidelity
+20000000 2000 Dylan Dog: Dead of Night
+20000000 2010 Be Kind Rewind
+20000000 2008 Silent Hill: Revelation 3D
+20000000 2012 You Again
+20000000 2010 Ladyhawke
+20000000 1985 Eye for an Eye
+20000000 1996 Man of the Year
+20000000 2006 Equilibrium
+20000000 2002 21 grams
+20000000 2003 Mononoke-hime
+20000000 1997 Appaloosa
+20000000 2008 The Quiet American
+20000000 2002 Home Alone 2: Lost in New York
+20000000 1992 Capitalism: A Love Story
+20000000 2009 Milk
+20000000 2008 A Very Harold &amp; Kumar 3D Christmas
+20000000 2011 Boogeyman
+20000000 2005 Can&#39;t Stop the Music
+20000000 1980 Wayne&#39;s World
+20000000 1992 Into the Wild
+20000000 2007 12 Years a Slave
+20000000 2013 Proof
+20000000 2005 Texas Chainsaw 3D
+20000000 2013 Conan the Barbarian
+20000000 1982 The World&#39;s End
+20000000 2013 The Kite Runner
+20000000 2007 Bill &amp; Ted&#39;s Bogus Journey
+20000000 1991 White Chicks
+20000000 2004 The Proposition
+20000000 1998 Three to Tango
+20000000 1999 A Scanner Darkly
+20000000 2006 Drumline
+20000000 2002 Topsy-Turvy
+20000000 1999 Home for the holidays
+20000000 1995 The Debt
+20000000 2010 Everybody&#39;s Fine
+20000000 2009 The Grudge 2
+20000000 2006 What&#39;s Your Number
+20000000 2011 Fired Up!
+20000000 2009 Raiders of the Lost Ark
+20000000 1981 Selena
+20000000 1997 Premonition
+20000000 2007 Beauty and the Beast
+20000000 1991 Close Encounters of the Third Kind
+20000000 1977 Connie and Carla
+20000000 2004 Stick It
+20000000 2006 Disturbia
+20000000 2007 Armored
+20000000 2009 Copycat
+20000000 1995 The School of Rock
+20000000 2003 The Jungle Book 2
+20000000 2003 Bon voyage
+20000000 2003 Doubt
+20000000 2008 Holes
+20000000 2003 The Best Little Whorehouse in Texas
+20500000 1982 South Park: Bigger Longer &amp; Uncut
+21000000 1999 The Transporter
+21000000 2002 Carrie 2: The Rage
+21000000 1999 Death at a Funeral
+21000000 2007 Away We Go
+21000000 2009 For Colored Girls
+21000000 2010 Silver Linings Playbook
+21000000 2012 Tinker Tailor Soldier Spy
+21000000 2011 To Rome With Love
+21500000 2012 Michael Clayton
+21500000 2007 I Heart Huckabees
+22000000 2004 Zwartboek
+22000000 2006 The Santa Clause
+22000000 1994 The Glass House
+22000000 2001 Ghost
+22000000 1990 The Net
+22000000 1995 There&#39;s Something About Mary
+22000000 1998 The Bridges of Madison County
+22000000 1995 The Informant!
+22000000 2009 Josie and the Pussycats
+22000000 2001 Jay and Silent Bob Strike Back
+22000000 2001 Underworld
+22000000 2003 1408
+22500000 2007 Spaceballs
+22700000 1987 Final Destination
+23000000 2000 Someone Like You...
+23000000 2001 Star Wars: Episode V - The Empire Strikes Back
+23000000 1980 The Naked Gun 2 1/2: The Smell of Fear
+23000000 1991 Pitch Black
+23000000 2000 Haywire
+23000000 2011 Coco avant Chanel
+23000000 2009 Anywhere But Here
+23000000 1999 Her
+23000000 2013 Zombieland
+23600000 2009 Footloose
+24000000 2011 The Men Who Stare at Goats
+24000000 2009 The Princess and the Cobbler
+24000000 1993 The Whole Nine Yards
+24000000 2000 Muppets From Space
+24000000 1999 Return to Me
+24000000 2000 Scream 2
+24000000 1997 The Help
+25000000 2011 Hide and Seek
+25000000 2005 There Will Be Blood
+25000000 2007 Hot Rod
+25000000 2007 Beauty Shop
+25000000 2005 Bridge to Terabithia
+25000000 2007 Contraband
+25000000 2012 Parental Guidance
+25000000 2012 Bridget Jones&#39;s Diary
+25000000 2001 No Country for Old Men
+25000000 2007 The Box
+25000000 2009 Straw Dogs
+25000000 1971 Mrs. Doubtfire
+25000000 1993 BloodRayne
+25000000 2005 Anchorman: The Legend of Ron Burgundy
+25000000 2004 Jeepers Creepers II
+25000000 2003 Gettysburg
+25000000 1993 Tank Girl
+25000000 1995 Bride of Chucky
+25000000 1998 The Counselor
+25000000 2013 Straw Dogs
+25000000 2011 Fly Me to the Moon
+25000000 2008 The House Bunny
+25000000 2008 The Conspirator
+25000000 2010 Kiss of the Dragon
+25000000 2001 Don&#39;t Be Afraid of the Dark
+25000000 2010 Final Destination 3
+25000000 2006 August: Osage County
+25000000 2013 The Hours
+25000000 2002 Tombstone
+25000000 1993 Blindness
+25000000 2008 Kingpin
+25000000 1996 Taken
+25000000 2008 Schindler&#39;s List
+25000000 1993 Possession
+25000000 2008 Romeo Must Die
+25000000 2000 Gran Torino
+25000000 2008 Goodfellas
+25000000 1990 The Road
+25000000 2009 Rain Man
+25000000 1988 Cradle 2 the Grave
+25000000 2003 Elizabeth
+25000000 1998 The Powerpuff Girls
+25000000 2002 Finding Neverland
+25000000 2004 Dear John
+25000000 2010 The Losers
+25000000 2010 No Strings Attached
+25000000 2011 The Last Emperor
+25000000 1987 The Shawshank Redemption
+25000000 1994 Teenage Mutant Ninja Turtles II: The Secret of the Ooze
+25000000 1991 Cloverfield
+25000000 2008 Chocolat
+25000000 2000 Legend
+25000000 1985 She&#39;s the Man
+25000000 2006 Ice Princess
+25000000 2005 Warrior
+25000000 2011 The Grey
+25000000 2012 The Constant Gardener
+25500000 2005 Ever After
+26000000 1998 In Good Company
+26000000 2004 Brothers
+26000000 2009 Pineapple Express
+26000000 2008 A Bridge Too Far
+26000000 1977 Red Eye
+26000000 2005 Shakespeare in Love
+26000000 1998 Legion
+26000000 2010 Flatliners
+26000000 1990 Final Destination 2
+26000000 2003 Pain &amp; Gain
+26000000 2013 Freaky Friday
+26000000 2003 The Fifth Estate
+26000000 2013 New Year&#39;s Eve
+26000000 2011 The 40 Year Old Virgin
+26000000 2005 The Sisterhood of the Traveling Pants 2
+27000000 2008 Dark City
+27000000 1998 Case 39
+27000000 2009 The Blues Brothers
+27000000 1980 Lucky Number Slevin
+27000000 2006 Flawless
+27000000 1999 Kiss the Girls
+27000000 1997 Return to Oz
+27000000 1985 Star Trek VI: The Undiscovered Country
+27000000 1991 Limitless
+27000000 2011 Notes on a Scandal
+27500000 2006 Knocked Up
+27500000 2007 My Sister&#39;s Keeper
+27500000 2009 Aladdin
+28000000 1992 Indiana Jones and the Temple of Doom
+28000000 1984 Dawn of the Dead
+28000000 2004 Blade Runner
+28000000 1982 Safe Haven
+28000000 2013 Kick-Ass
+28000000 2010 The Spy Next Door
+28000000 2010 Last Vegas
+28000000 2013 Hocus Pocus
+28000000 1993 Timecop
+28000000 1994 Pride and Prejudice
+28000000 1995 No Reservations
+28000000 2007 Dawn of the Dead
+28000000 1978 Miracle
+28000000 2004 The Wedding Planner
+28000000 2001 We Own the Night
+28000000 2007 The Royal Tenenbaums
+28000000 2001 Pride and Prejudice
+28000000 2003 Identity
+28000000 2003 Kick-Ass 2
+28000000 2013 Pride and Prejudice
+28000000 2005 Along Came A Spider
+28000000 2001 Die Hard
+28000000 1988 30 Minutes or Less
+28000000 2011 Zoolander
+28000000 2001 A Simple Wish
+28000000 1997 The Jacket
+28500000 2005 Walk the Line
+29000000 2005 Frost/Nixon
+29000000 2008 Twelve Monkeys
+29000000 1995 Take the Lead
+30000000 2006 Up in the Air
+30000000 2009 Blow
+30000000 2001 Lee Daniels&#39; The Butler
+30000000 2013 Blue Crush
+30000000 2002 Bride Wars
+30000000 2009 The First Wives Club
+30000000 1996 Midnight Run
+30000000 1988 Assault on Precinct 13
+30000000 2005 Forgetting Sarah Marshall
+30000000 2008 North Country
+30000000 2005 Baby Mama
+30000000 2008 The Princess Diaries
+30000000 2001 About Schmidt
+30000000 2002 Stranger Than Fiction
+30000000 2006 9
+30000000 2009 Legends of the Fall
+30000000 1994 Fright Night
+30000000 2011 Little Shop of Horrors
+30000000 1986 Atonement
+30000000 2007 Mortal Kombat: Annihilation
+30000000 1997 Antitrust
+30000000 2001 Hope Floats
+30000000 1998 The Imaginarium of Doctor Parnassus
+30000000 2009 Carrie
+30000000 2002 Carrie
+30000000 2013 Winnie the Pooh
+30000000 2011 Igor
+30000000 2008 The Hunt for Red October
+30000000 1990 Assault on Precinct 13
+30000000 1976 Speed
+30000000 1994 30 Days of Night
+30000000 2007 Rugrats in Paris:
+30000000 2000 Corpse Bride
+30000000 2005 Drag Me to Hell
+30000000 2009 Se7en
+30000000 1995 88 Minutes
+30000000 2007 The Addams Family
+30000000 1991 Splice
+30000000 2009 District 9
+30000000 2009 The Family
+30000000 2013 The New World
+30000000 2005 Pokemon: The Movie 2000
+30000000 2000 Remember the Titans
+30000000 2000 Warm Bodies
+30000000 2013 Runner Runner
+30000000 2013 Hanna
+30000000 2011 13 Going on 30
+30000000 2004 Toy Story
+30000000 1995 Star Trek V: The Final Frontier
+30000000 1989 Miss Potter
+30000000 2006 Pocket Monsters: Mewtwo Strikes Back!
+30000000 1999 Ghostbusters
+30000000 1984 The Whole Ten Yards
+30000000 2004 Secondhand Lions
+30000000 2003 The Cabin in the Woods
+30000000 2011 Side Effects
+30000000 2013 Analyze This
+30000000 1999 Love and Other Drugs
+30000000 2010 Million Dollar Baby
+30000000 2004 The Next Three Days
+30000000 2010 Barney&#39;s Version
+30000000 2010 The Notebook
+30000000 2004 DOA: Dead or Alive
+30000000 2006 Chicago
+30000000 2002 Gloria
+30000000 2013 Midnight in Paris
+30000000 2011 Ultraviolet
+30000000 2006 Dodgeball: A True Underdog Story
+30000000 2004 Naked Gun 33 1/3: The Final Insult
+30000000 1994 Letters to Juliet
+30000000 2010 Wing Commander
+30000000 1999 Howard The Duck
+30000000 1986 Mystic River
+30000000 2003 Flight
+31000000 2012 Moonraker
+31000000 1979 Apocalypse Now
+31500000 1979 Nacho Libre
+32000000 2006 The Incredible Burt Wonderstone
+32000000 2013 Going the Distance
+32000000 2010 The Number 23
+32000000 2007 Scrooged
+32000000 1988 Source Code
+32000000 2011 The Quick and the Dead
+32000000 1995 Cats Don&#39;t Dance
+32000000 1997 Repo Men
+32000000 2010 Takers
+32000000 2010 This Is the End
+32000000 2013 Snow Dogs
+32000000 2002 Bridesmaids
+32500000 2011 The Big Wedding
+32500000 2013 Wanderlust
+32500000 2012 The Reader
+32500000 2008 Star Wars: Episode VI - Return of the Jedi
+32500000 1983 Step Up Revolution
+33000000 2012 Safe
+33000000 2012 A Few Good Men
+33000000 1992 Doomsday
+33000000 2008 Safe
+33000000 1995 Snakes on a Plane
+33000000 2006 The Age of Innocence
+34000000 1993 Gake no ue no Ponyo
+34000000 2008 The Darkest Hour
+34800000 2011 True Grit
+35000000 2010 Rush Hour
+35000000 1998 The Man in the Iron Mask
+35000000 1998 Species
+35000000 1995 TMNT
+35000000 2007 Saving Mr. Banks
+35000000 2013 21
+35000000 2008 The Cell
+35000000 2000 The Tree of Life
+35000000 2011 Predator 2
+35000000 1990 Closer
+35000000 2004 What Happens In Vegas
+35000000 2008 Flash Gordon
+35000000 1980 A nightmare on Elm Street
+35000000 1984 Queen of the Damned
+35000000 2002 The Fountain
+35000000 2006 Spy Kids
+35000000 2001 Street Fighter
+35000000 1994 Must love Dogs
+35000000 1997 Max Payne
+35000000 2008 Whiteout
+35000000 2009 Malcolm X
+35000000 1992 Biutiful
+35000000 2010 Identity Thief
+35000000 2013 L.A. Confidential
+35000000 1997 Bandidas
+35000000 2006 Nanny McPhee and the Big Bang
+35000000 2010 Batman
+35000000 1989 The English Patient
+35000000 1996 The Blind Side
+35000000 2009 The Young Victoria
+35000000 2009 The Hangover
+35000000 2009 In Time
+35000000 2011 Wimbledon
+35000000 2004 Secretariat
+35000000 2010 Resident Evil
+35000000 2002 Smilla&#39;s Sense of Snow
+35000000 1997 American Outlaws
+35000000 2001 The Back-up Plan
+35000000 2010 Ella Enchanted
+35000000 2004 Horrible Bosses
+35000000 2011 Zoom
+35000000 2006 The Devil Wears Prada
+35000000 2006 Cursed
+35000000 2005 From Hell
+35000000 2001 Premium Rush
+35000000 2012 Star Trek: The Motion Picture
+35000000 1979 Parker
+35000000 2013 Austin Powers: The Spy Who Shagged Me
+35000000 1999 Blue Streak
+36000000 1999 Hot Tub Time Machine
+36000000 2010 Gattaca
+36000000 1997 Hall Pass
+36000000 2011 The Rite
+37000000 2011 Nim&#39;s Island
+37000000 2008 Magnolia
+37000000 1999 Burn After Reading
+37000000 2008 We&#39;re the Millers
+37000000 2013 Dolphin Tale
+37000000 2011 Cop Out
+37000000 2010 Twilight
+37000000 2008 The Town
+37000000 2010 The Master
+37500000 2012 What to Expect When You&#39;re Expecting
+37500000 2012 The Fast and the Furious
+38000000 2001 Rush
+38000000 2013 The Ugly Truth
+38000000 2009 Push
+38000000 2009 Spy Kids 2: Island of Lost Dreams
+38000000 2002 Riddick
+38000000 2013 City of Ember
+38000000 2008 Frankenweenie
+39000000 2012 Serenity
+39000000 2005 Superman III
+39000000 1983 The Time Traveler&#39;s Wife
+39000000 2009 The Proposal
+40000000 2009 The Talented Mr. Ripley
+40000000 1999 Marie Antoinette
+40000000 2006 The Lake House
+40000000 2006 The Social Network
+40000000 2010 Back to the Future Part II
+40000000 1989 17 Again
+40000000 2009 Get Him To The Greek
+40000000 2010 The Prestige
+40000000 2006 Julie &amp; Julia
+40000000 2009 8MM
+40000000 1999 The Impossible
+40000000 2012 Predators
+40000000 2010 Made of Honor
+40000000 2008 Sunshine
+40000000 2007 The Other Boleyn Girl
+40000000 2008 New York Minute
+40000000 2004 Music and Lyrics
+40000000 2007 The Sixth Sense
+40000000 1999 The Karate Kid
+40000000 2010 Scream 3
+40000000 2000 Morning Glory
+40000000 2010 The Final Destination
+40000000 2009 Secret Window
+40000000 2004 Spawn
+40000000 1997 A League of Their Own
+40000000 1992 Shallow Hal
+40000000 2001 The Shadow
+40000000 1994 Quest for Camelot
+40000000 1998 Back to the Future Part III
+40000000 1990 Small Soldiers
+40000000 1998 The Lincoln Lawyer
+40000000 2011 The Karate Kid
+40000000 1984 Ray
+40000000 2004 Paul
+40000000 2011 The Hudsucker Proxy
+40000000 1994 Spy Kids 3-D: Game Over
+40000000 2003 Impostor
+40000000 2001 Final Destination 5
+40000000 2011 Pandorum
+40000000 2009 The Skeleton Key
+40000000 2005 Fever Pitch
+40000000 1997 Escape from Planet Earth
+40000000 2013 American Hustle
+40000000 2013 Rent
+40000000 2005 Sin City
+40000000 2005 Fantastic Mr. Fox
+40000000 2009 Showgirls
+40000000 1995 He&#39;s Just Not That Into You
+40000000 2009 Colombiana
+40000000 2011 42
+40000000 2013 A Knight&#39;s Tale
+41000000 2001 8 Mile
+41000000 2002 Red Riding Hood
+42000000 2011 Br&uuml;no
+42000000 2009 Super Mario Bros.
+42000000 1993 Chicken Run
+42000000 2000 High Crimes
+42000000 2002 Micmacs (Micmacs &agrave; tire-larigot)
+42000000 2009 The Mirror Has Two Faces
+42000000 1996 Licence to Kill
+42000000 1989 One for the Money
+42000000 2012 Notting Hill
+42000000 1999 Hero
+42000000 1992 Lord of War
+42000000 2005 The Mechanic
+42500000 2011 The Heat
+43000000 2013 Danny the dog
+43000000 2005 28 Days
+43000000 2000 The Sweetest Thing
+43000000 2002 Heaven&#39;s Gate
+44000000 1980 Charlie St. Cloud
+44000000 2010 The Fugitive
+44000000 1993 Argo
+44500000 2012 Miss Congeniality
+45000000 2000 Scary Movie 3
+45000000 2003 The Ant Bully
+45000000 2006 Revolutionary Road
+45000000 2008 Blade
+45000000 1998 Cellular
+45000000 2004 Galaxy Quest
+45000000 1999 Dune
+45000000 1984 Coach Carter
+45000000 2005 Training Day
+45000000 2001 Love Actually
+45000000 2003 The Ghost Writer
+45000000 2010 Journey to the Center of the Earth
+45000000 2008 Johnny English Reborn
+45000000 2011 Across the Universe
+45000000 2007 Last Holiday
+45000000 2006 The Glimmer Man
+45000000 1996 A Bug&#39;s Life
+45000000 1998 The Client
+45000000 1994 Dune
+45000000 2000 The Bucket List
+45000000 2007 The Muppets
+45000000 2011 Miracle at St. Anna
+45000000 2008 Coyote Ugly
+45000000 2000 Liar Liar
+45000000 1997 The Specialist
+45000000 1994 Dredd 3D
+45000000 2012 The Princess Diaries 2: Royal Engagement
+45000000 2004 Resident Evil: Extinction
+45000000 2007 The Hitchhiker&#39;s Guide to the Galaxy
+45000000 2005 My Best Friend&#39;s Wedding
+46000000 1997 Insomnia
+46000000 2002 Prisoners
+46000000 2013 Star Trek: First Contact
+46000000 1996 The Cable Guy
+47000000 1996 Solaris
+47000000 2002 Panic Room
+48000000 2002 The Ring
+48000000 2002 3:10 to Yuma
+48000000 2007 Indiana Jones and the Last Crusade
+48000000 1989 Kate &amp; Leopold
+48000000 2001 Out of Sight
+48000000 1998 The One
+49000000 2001 Anna Karenina
+49000000 2012 Invictus
+49000000 2009 For Love of the Game
+50000000 1999 The Iron Giant
+50000000 1999 Raising Helen
+50000000 2004 Yes Man
+50000000 2008 The Game
+50000000 1997 Super 8
+50000000 2011 The Negotiator
+50000000 1998 Erin Brockovich
+50000000 2000 Gamer
+50000000 2009 Silent Hill
+50000000 2006 Beautiful Creatures
+50000000 2000 Herbie Fully Loaded
+50000000 2005 Defiance
+50000000 2008 Domino
+50000000 2005 Payback
+50000000 1999 Shanghai Knights
+50000000 2003 Moneyball
+50000000 2011 Outbreak
+50000000 1995 I Am Number Four
+50000000 2011 Congo
+50000000 1995 The Life Aquatic with Steve Zissou
+50000000 2004 Resident Evil: Apocalypse
+50000000 2004 Inside Man
+50000000 2006 Robin Hood: Prince of Thieves
+50000000 1991 Eastern Promises
+50000000 2007 The Host
+50000000 2013 As Good as It Gets
+50000000 1997 Striptease
+50000000 1996 Beverly Hills Cop III
+50000000 1994 We Bought a Zoo
+50000000 2011 Hansel &amp; Gretel: Witch Hunters
+50000000 2013 Don&#39;t Say A Word
+50000000 2001 Knowing
+50000000 2009 Ted
+50000000 2012 Dream House
+50000000 2011 G.I. Jane
+50000000 1997 Bridget Jones: The Edge of Reason
+50000000 2004 Escape from L.A.
+50000000 1996 Stepmom
+50000000 1998 Beautiful Creatures
+50000000 2013 The Peacemaker
+50000000 1997 Assassins
+50000000 1995 Ninja Assassin
+50000000 2009 Death to Smoochy
+50000000 2002 How to Lose a Guy in 10 Days
+50000000 2003 The Host
+50000000 2006 The Beach
+50000000 2000 Shrek
+50000000 2001 The Ring Two
+50000000 2005 Hannibal Rising
+50000000 2007 V for Vendetta
+50000000 2005 The Adventures of Sharkboy and Lavagirl 3-D
+50000000 2005 The Boat That Rocked
+50000000 2009 Mr Deeds
+50000000 2002 Man of the House
+50000000 2005 Fair Game
+50000000 2010 The Adjustment Bureau
+50200000 2011 Catch Me If You Can
+52000000 2002 The Break Up
+52000000 2006 Valentine&#39;s Day
+52000000 2010 The Thin Red Line
+52000000 1998 Casino
+52000000 1995 Zero Dark Thirty
+52500000 2012 Beloved
+53000000 1998 Anastasia
+53000000 1997 Law Abiding Citizen
+53000000 2009 Moulin Rouge!
+53000000 2001 Shaft
+53012938 1971 Superman II
+54000000 1980 Blade II
+54000000 2002 Seven Pounds
+54000000 2008 The Pirates! Band of Misfits
+55000000 2012 Hitch
+55000000 2005 Alien 3
+55000000 1992 Mr. Popper&#39;s Penguins
+55000000 2011 Casper
+55000000 1995 Bullet to the Head
+55000000 2012 Date Night
+55000000 2010 Burlesque
+55000000 2010 Death Becomes Her
+55000000 1992 The Forbidden Kingdom
+55000000 2008 The Pursuit of Happyness
+55000000 2006 Captain Phillips
+55000000 2013 Meet the Parents
+55000000 2000 The Phantom of the Opera
+55000000 2004 Superman
+55000000 1978 The Watch
+55000000 2012 Changeling
+55000000 2008 Stargate
+55000000 1994 Flightplan
+55000000 2005 Shanghai Noon
+55000000 2000 Chain Reaction
+55000000 1996 Pocahontas
+55000000 1995 George of the Jungle
+55000000 1997 Maid in Manhattan
+55000000 2002 Kill Bill: Vol. 1
+55000000 2003 Forrest Gump
+55000000 1994 The Fan
+55000000 1996 AEon Flux
+55000000 2005 A Very Long Engagement
+55000000 2004 DragonHeart
+57000000 1996 The Devil&#39;s Advocate
+57000000 1997 Sex and the City
+57500000 2008 Red Tails
+58000000 2012 Sabrina
+58000000 1995 The Internship
+58000000 2013 Che: Part One
+58000000 2008 Just Like Heaven
+58000000 2005 The Soloist
+60000000 2009 Gangster Squad
+60000000 2013 Shooter
+60000000 2007 Jingle All the Way
+60000000 1996 The Italian Job
+60000000 2003 Two Weeks Notice
+60000000 2002 Red
+60000000 2010 Reign of Fire
+60000000 2002 Priest
+60000000 2011 Planet 51
+60000000 2009 State of Play
+60000000 2009 Alien: Resurrection
+60000000 1997 The Avengers
+60000000 2012 Edge of Darkness
+60000000 2010 Dark Water
+60000000 2005 The Prince of Egypt
+60000000 1998 Sky High
+60000000 2005 The Avengers
+60000000 1998 Jack Reacher
+60000000 2012 The Mortal Instruments: City of Bones
+60000000 2013 Almost Famous
+60000000 2000 Miss Congeniality 2: Armed &amp; Fabulous
+60000000 2005 Practical Magic
+60000000 1998 ParaNorman
+60000000 2012 Event Horizon
+60000000 1997 Hellboy
+60000000 2004 The Bourne Identity
+60000000 2002 Inkheart
+60000000 2008 The Tuxedo
+60000000 2002 300
+60000000 2006 Contagion
+60000000 2011 Sinbad: Legend of the Seven Seas
+60000000 2003 Collateral
+60000000 2004 The Tale of Despereaux
+60000000 2008 Meet Dave
+60000000 2008 The Green Mile
+60000000 1999 Daddy Day Care
+60000000 2003 Mercury Rising
+60000000 1998 The Truman Show
+60000000 1998 Coraline
+60000000 2009 Priest
+60000000 1994 Star Trek: Nemesis
+60000000 2002 2 Guns
+61000000 2013 Blades of Glory
+61000000 2007 The American President
+62000000 1995 Austin Powers in Goldmember
+63000000 2002 Jurassic Park
+63000000 1993 Hop
+63000000 2011 Perfume: The Story of a Murderer
+63700000 2006 Fight Club
+65000000 1999 The Santa Clause 2
+65000000 2002 What Women Want
+65000000 2000 Ice Age
+65000000 2002 Saving Private Ryan
+65000000 1998 The Missing
+65000000 2003 Eyes Wide Shut
+65000000 1999 Astro Boy
+65000000 2009 Cliffhanger
+65000000 1993 We Are Marshall
+65000000 2006 Hudson Hawk
+65000000 1991 Primary Colors
+65000000 1998 Lincoln
+65000000 2012 Broken Arrow
+65000000 1996 Due Date
+65000000 2010 Apollo 13
+65000000 1995 Mona Lisa Smile
+65000000 2003 You&#39;ve Got Mail
+65000000 1998 Zathura: A Space Adventure
+65000000 2005 The Dictator
+65000000 2012 Red Dawn
+65000000 2012 The Matrix
+65000000 1999 Step Brothers
+65000000 2008 Les Miserables
+65000000 2012 The Long Kiss Goodnight
+65000000 1996 The Mask of Zorro
+65000000 1998 Death Race
+65000000 2008 Jumanji
+65000000 1995 Oliver Twist
+65000000 2005 That&#39;s My Boy
+67500000 2012 Abraham Lincoln: Vampire Hunter
+67500000 2012 Dreamcatcher
+68000000 2003 The Twilight Saga: Eclipse
+68000000 2010 Mystery Men
+68000000 1999 Despicable Me
+69000000 2010 Dinner for Schmucks
+69000000 2010 Hercules
+70000000 1997 Underworld: Awakening
+70000000 2012 Star Trek: Insurrection
+70000000 1998 Vanilla Sky
+70000000 2001 AVP: Alien vs. Predator
+70000000 2004 Olympus Has Fallen
+70000000 2013 Shrek 2
+70000000 2004 Osmosis Jones
+70000000 2001 I Spy
+70000000 2002 xXx
+70000000 2002 We Were Soldiers
+70000000 2002 Cars
+70000000 2006 Doom
+70000000 2005 Die Hard 2
+70000000 1990 Sleepy Hollow
+70000000 1999 Rock of Ages
+70000000 2012 The Abyss
+70000000 1989 S.W.A.T.
+70000000 2003 Inglourious Basterds
+70000000 2009 Stardust
+70000000 2007 War Horse
+70000000 2011 Hook
+70000000 1991 Who Framed Roger Rabbit
+70000000 1988 Wall Street: Money Never Sleeps
+70000000 2010 Escape Plan
+70000000 2013 Killer Elite
+70000000 2011 Agora
+70000000 2009 Big Fish
+70000000 2003 Sky Captain and the World of Tomorrow
+70000000 2004 Battle: Los Angeles
+70000000 2011 Signs
+70702619 2002 The Village
+71682975 2004 Dr. Dolittle 2
+72000000 2001 The Majestic
+72000000 2001 Braveheart
+72000000 1995 Jarhead
+72000000 2005 Funny People
+72500000 2009 The Simpsons Movie
+72500000 2007 Sphere
+73000000 1998 Unbreakable
+73243106 2000 Madagascar
+75000000 2005 Monster House
+75000000 2006 Grown Ups
+75000000 2010 Vertical Limit
+75000000 2000 Independence Day
+75000000 1996 X-Men
+75000000 2000 The Rock
+75000000 1996 50 First Dates
+75000000 2004 Flight of the Phoenix
+75000000 2004 Anna and the King
+75000000 1999 Constantine
+75000000 2005 Sucker Punch
+75000000 2011 The Lost World: Jurassic Park
+75000000 1997 Virus
+75000000 1999 Titan A.E.
+75000000 2000 Lady in the Water
+75000000 2006 Ice Age: The Meltdown
+75000000 2006 Wanted
+75000000 2008 Immortals
+75000000 2011 Hairspray
+75000000 2007 The Terminal
+75000000 2004 Shark Tale
+75000000 2004 Now You See Me
+75000000 2013 Monkeybone
+75000000 2001 Spanglish
+75000000 2004 Hollywood Homicide
+75000000 2003 Munich
+75000000 2005 Charlie Wilson&#39;s War
+75000000 2007 2 Fast 2 Furious
+76000000 2003 Despicable Me 2
+76000000 2013 Children of Men
+76000000 2006 Cloudy with a Chance of Meatballs 2
+78000000 2013 Red Dragon
+78000000 2002 The League of Extraordinary Gentlemen
+78000000 2003 A Beautiful Mind
+78000000 2001 The Lion King
+79300000 1994 Shutter Island
+80000000 2010 The Mummy
+80000000 1999 Grown Ups 2
+80000000 2013 Conspiracy Theory
+80000000 1997 Flubber
+80000000 1997 Surrogates
+80000000 2009 Something&#39;s Gotta Give
+80000000 2003 The Haunting
+80000000 1999 Batman Returns
+80000000 1992 Bewitched
+80000000 2005 Con Air
+80000000 1997 Bedtime Stories
+80000000 2008 The Legend of Zorro
+80000000 2005 Lost in Space
+80000000 1998 Four Christmases
+80000000 2008 Lilo and Stitch
+80000000 2002 Daredevil
+80000000 2003 Yogi Bear
+80000000 2010 Just Go with It
+80000000 2011 Thirteen days
+80000000 2000 Robots
+80000000 2005 Space Jam
+80000000 1996 Nine
+80000000 2009 Red Planet
+80000000 2000 Evolution
+80000000 2001 Eagle Eye
+80000000 2008 Six Days Seven Nights
+80000000 1998 Cold Mountain
+80000000 2003 The Hunger Games
+80000000 2012 Spirit: Stallion of the Cimarron
+80000000 2002 The Postman
+80000000 1997 The Day the Earth Stood Still
+80000000 2008 Deep Impact
+80000000 1998 Mars Attacks!
+80000000 1996 Little Nicky
+80000000 2000 Mission: Impossible
+80000000 1996 Timeline
+80000000 2003 Bruce Almighty
+81000000 2003 The Expendables
+82000000 2010 Jumper
+82500000 2008 Herb &amp; Dorothy
+82500000 2008 Red 2
+84000000 2013 Scooby-Doo
+84000000 2002 Hotel Transylvania
+85000000 2012 The Core
+85000000 2003 It&#39;s Complicated
+85000000 2009 Tower Heist
+85000000 2011 Air Force One
+85000000 1997 The Holiday
+85000000 2006 Memoirs of a Geisha
+85000000 2005 Ocean&#39;s Eleven
+85000000 2001 Fast &amp; Furious
+85000000 2009 The Bourne Supremacy
+85000000 2004 Arthur Christmas
+85000000 2011 Mirror Mirror
+85000000 2012 Open Season
+85000000 2006 Enchanted
+85000000 2007 Scott Pilgrim vs. the World
+85000000 2010 Cast Away
+85000000 2000 Enemy of the State
+85000000 1998 Hannibal
+87000000 2012 Hannibal
+87000000 2001 Fantastic Four
+87500000 2005 Twister
+88000000 1996 Cinderella Man
+88000000 2005 Volcano
+90000000 1997 Lara Croft Tomb Raider: The Cradle of Life
+90000000 2003 Atlantis: The Lost Empire
+90000000 2001 Artificial Intelligence: AI
+90000000 2001 Men in Black
+90000000 1997 Contact
+90000000 1997 Sherlock Holmes
+90000000 2009 Ice Age: Dawn of the Dinosaurs
+90000000 2009 Mission to Mars
+90000000 2000 The Girl with the Dragon Tattoo
+90000000 2009 What Lies Beneath
+90000000 2000 The Departed
+90000000 2006 Hollow Man
+90000000 2000 Percy Jackson: Sea of Monsters
+90000000 2013 Charlie&#39;s Angels
+90000000 2000 Mulan
+90000000 1998 Die Hard: With a Vengeance
+90000000 1995 Toy Story 2
+90000000 1999 Rio
+90000000 2011 Tropic Thunder
+90000000 2008 The Three Musketeers
+90000000 2011 Valkyrie
+90000000 2008 The Girl with the Dragon Tattoo
+90000000 2011 The Incredibles
+92000000 2004 A Good Day to Die Hard
+92000000 2013 Rise of the Planet of the Apes
+93000000 2011 Finding Nemo
+94000000 2003 The Lord of the Rings: The Two Towers
+94000000 2002 Lara Croft: Tomb Raider
+94000000 2001 The Lord of the Rings: The Return of the King
+94000000 2003 The Lovely Bones
+95000000 2009 Percy Jackson &amp; the Olympians: The Lightning Thief
+95000000 2010 The Fifth Element
+95000000 1997 Black Hawk Down
+95000000 2001 Sex and the city 2
+95000000 2010 Unstoppable
+95000000 2010 The Road to El Dorado
+95000000 2000 Gangs of New York
+97000000 2002 The Wolf of Wall Street
+100000000 2013 Harry Potter and the Chamber of Secrets
+100000000 2002 Cloudy with a Chance of Meatballs
+100000000 2009 Django Unchained
+100000000 2012 The Hunchback of Notre Dame
+100000000 1996 Starship Troopers
+100000000 1997 Treasure Planet
+100000000 2002 The Tourist
+100000000 2010 Catwoman
+100000000 2004 Eragon
+100000000 2006 The Expendables 2
+100000000 2012 Batman Forever
+100000000 1995 Blood Diamond
+100000000 2006 Lemony Snicket&#39;s A Series of Unfortunate Events
+100000000 2004 Son of the Mask
+100000000 2005 Terminator 2: Judgement Day
+100000000 1991 The Stepford Wives
+100000000 2004 The Other Guys
+100000000 2010 Epic
+100000000 2013 Where the Wild Things Are
+100000000 2009 The Adventures of Pluto Nash
+100000000 2002 The Emperor&#39;s New Groove
+100000000 2000 Peter Pan
+100000000 2003 Jin ling shi san chai
+100000000 2011 Green Zone
+100000000 2010 True Lies
+100000000 1994 Minority Report
+102000000 2002 Casino Royale
+102000000 2006 Cloud Atlas
+102000000 2012 Public Enemies
+102500000 2009 Gladiator
+103000000 2000 The Hangover part 3
+103000000 2013 Gone in Sixty Seconds
+103300000 2000 Stuart Little
+105000000 1999 The Princess and the Frog
+105000000 2009 The Lord of the Rings: The Fellowship of the Ring
+109000000 2001 The Taking of Pelham 123
+110000000 2009 The Matrix Revolutions
+110000000 2003 Home on the Range
+110000000 2004 The Green Hornet
+110000000 2011 Live Free or Die Hard
+110000000 2007 The A-Team
+110000000 2010 Mr. &amp; Mrs. Smith
+110000000 2005 Gravity
+110000000 2013 Kingdom of Heaven
+110000000 2005 The Aviator
+110000000 2004 Real Steel
+110000000 2011 The Smurfs 2
+110000000 2013 The Smurfs
+110000000 2011 Ender&#39;s Game
+110000000 2013 Night at the Museum
+110000000 2006 Around the World in 80 Days
+110000000 2004 The Patriot
+110000000 2000 Star Wars: Episode II - Attack of the Clones
+115000000 2002 The Wolverine
+115000000 2013 Star Wars: Episode I - The Phantom Menace
+115000000 1999 Star Wars: Episode III - Revenge of the Sith
+115000000 2005 Knight and Day
+117000000 2010 Life of Pi
+120000000 2012 Oblivion
+120000000 2013 Charlie&#39;s Angels: Full Throttle
+120000000 2003 Speed Racer
+120000000 2008 The Chronicles of Riddick
+120000000 2004 Fantastic Four: Rise of the Silver Surfer
+120000000 2007 Elysium
+120000000 2013 RoboCop
+120000000 1987 The Island
+120000000 2005 Total Recall
+125000000 1990 Harry Potter and the Deathly Hallows: Part 2
+125000000 2011 Total Recall
+125000000 2012 The Day After Tomorrow
+125000000 2004 Harry Potter and the Deathly Hallows: Part 1
+125000000 2010 Batman &amp; Robin
+125000000 1997 Pirates of the Caribbean: The Curse of the Black Pearl
+125000000 2003 The Da Vinci Code
+125000000 2006 Clash of the Titans
+125000000 2010 Godzilla
+125000000 1998 The 13th Warrior
+125000000 1999 Fast Five
+125000000 2011 X2 (X-Men 2)
+125000000 2003 Harry Potter and the Sorcerer&#39;s Stone
+125000000 2001 The Matrix Reloaded
+127000000 2003 The Twilight Saga: Breaking Dawn - Part 1
+127500000 2011 The Adventures of Tintin
+130000000 2011 Australia
+130000000 2008 The Hunger Games: Catching Fire
+130000000 2013 Salt
+130000000 2010 Harry Potter and the Prisoner of  Azkaban
+130000000 2004 Puss in Boots
+130000000 2011 After Earth
+130000000 2013 R.I.P.D.
+130000000 2013 Kung Fu Panda
+130000000 2008 Megamind
+130000000 2010 War of the Worlds
+132000000 2005 The Croods
+135000000 2013 Master and Commander: The Far Side of the World
+135000000 2003 Turbo
+135000000 2013 Rango
+135000000 2011 The Twilight Saga: Breaking Dawn - Part 2
+136200000 2012 Hulk
+137000000 2003 The Incredible Hulk
+137500000 2008 Watchmen
+138000000 2009 Stealth
+138000000 2005 Spider-Man
+139000000 2002 The Last Samurai
+140000000 2003 Captain America: The First Avenger
+140000000 2011 Armageddon
+140000000 1998 G.I. Joe: Retaliation
+140000000 2013 Star Trek
+140000000 2009 Men in Black II
+140000000 2002 Fun with Dick and Jane
+140000000 2005 Die Another Day
+142000000 2002 Mission: Impossible - Ghost Protocol
+145000000 2011 Tarzan
+145000000 1999 Rise of the Guardians
+145000000 2012 Madagascar 3: Europe&#39;s Most Wanted
+145000000 2012 Flushed Away
+149000000 2006 Angels &amp; Demons
+150000000 2009 Troy
+150000000 2004 Wrath of the Titans
+150000000 2012 The Wolfman
+150000000 2010 Hancock
+150000000 2008 G-Force
+150000000 2009 Frozen
+150000000 2013 Harry Potter and the Order of the Phoenix
+150000000 2007 Harry Potter and the Goblet of Fire
+150000000 2005 Batman Begins
+150000000 2005 Mars Needs Moms
+150000000 2011 Ratatouille
+150000000 2007 Bolt
+150000000 2008 Kung Fu Panda 2
+150000000 2011 Frozen
+150000000 2010 Thor
+150000000 2011 The Last Airbender
+150000000 2010 X-Men Origins: Wolverine
+150000000 2009 Beowulf
+150000000 2007 I Am Legend
+150000000 2007 Charlie and the Chocolate Factory
+150000000 2005 White House Down
+150000000 2013 Transformers
+151000000 2007 Pearl Harbor
+151500000 2001 The Chronicles of Narnia: The Voyage of the Dawn Treader
+155000000 2010 The Sorcerer&#39;s Apprentice
+160000000 2010 Poseidon
+160000000 2006 Shrek the Third
+160000000 2007 Fast and Furious 6
+160000000 2013 The Curious Case of Benjamin Button
+160000000 2008 X-Men: First Class
+160000000 2011 Inception
+160000000 2010 Cowboys &amp; Aliens
+163000000 2011 Wreck-It Ralph
+165000000 2012 How to Train Your Dragon
+165000000 2010 Shrek Forever After
+165000000 2010 The Polar Express
+170000000 2004 Snow White and the Huntsman
+170000000 2012 Thor: The Dark World
+170000000 2013 Van Helsing
+170000000 2004 Terminator 3: Rise of the Machines
+170000000 2003 Iron Man 2
+170000000 2010 G.I. Joe: The Rise of Cobra
+175000000 2009 Monsters vs Aliens
+175000000 2009 Waterworld
+175000000 1995 Wild Wild West
+175000000 1999 Up
+175000000 2009 Rush Hour 3
+180000000 2007 Hugo
+180000000 2011 WALL-E
+180000000 2008 Indiana Jones and the Kingdom of the Crystal Skull
+185000000 2008 The Dark Knight
+185000000 2008 Brave
+185000000 2012 Iron Man
+186000000 2008 Pacific Rim
+190000000 2013 Star Trek Into Darkness
+190000000 2013 World War Z
+190000000 2013 The Great Gatsby
+190000000 2013 Jack the Giant Slayer
+195000000 2013 Transformers: Dark of the Moon
+195000000 2011 Terminator Salvation
+200000000 2009 Green Lantern
+200000000 2011 Toy Story 3
+200000000 2010 Prince of Persia: The Sands of Time
+200000000 2010 Spider-Man 2
+200000000 2004 Alice in Wonderland
+200000000 2010 Oz the Great and Powerful
+200000000 2013 Skyfall
+200000000 2012 Tron Legacy
+200000000 2010 2012
+200000000 2009 Iron Man 3
+200000000 2013 Titanic
+200000000 1997 Cars 2
+200000000 2011 The Golden Compass
+205000000 2007 King Kong
+207000000 2005 Battleship
+209000000 2012 X-Men: The Last Stand
+210000000 2006 Transformers: Revenge of the Fallen
+210000000 2009 Robin Hood
+210000000 2010 Men in Black III
+215000000 2012 The Amazing Spider-Man
+220000000 2012 Man of Steel
+225000000 2013 Pirates of the Caribbean: Dead Man&#39;s Chest
+225000000 2006 The Chronicles of Narnia: Prince Caspian
+225000000 2008 47 Ronin
+225000000 2013 Quantum of Solace
+230000000 2008 Superman Returns
+232000000 2006 Harry Potter and the Half-Blood Prince
+250000000 2009 The Hobbit: An Unexpected Journey
+250000000 2012 The Hobbit: The Desolation of Smaug
+250000000 2013 Pirates of the Caribbean: On Stranger Tides
+250000000 2011 Tangled
+260000000 2010 John Carter
+275000000 2012 The Dark Knight Rises
+275000000 2012 The Lone Ranger
+275000000 2013 Pirates of the Caribbean: At World&#39;s End
+300000000 2007 Avatar
+425000000 2009 
