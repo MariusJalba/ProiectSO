@@ -8,24 +8,26 @@
 #include <string.h>
 #include <fcntl.h>
 #include <inttypes.h>
-int fileExists(const char *name)
+#include <linux/limits.h>
+#include <stdlib.h>
+int fileExists(const char *snap)
 {
     struct stat buf;
-    if (stat(name, &buf) == 0)
+    if (stat(snap, &buf) == 0)
     {
         return 1;
     }
     return 0;
 }
-int openFile(char *name)
+int openFile(char *snapFile)
 {
     int snap;
     char buff[] = "Inode|FileName|Size\n";
-    if (fileExists(name))
+    if (fileExists(snapFile))
     {
-        remove(name);
+        remove(snapFile);
     }
-    if ((snap = open(name, O_WRONLY | O_CREAT | O_TRUNC, S_IWUSR | S_IRUSR)) < 0)
+    if ((snap = open(snapFile, O_RDWR | O_CREAT | O_TRUNC, S_IWUSR | S_IRUSR)) < 0)
     {
         perror("open");
         exit(EXIT_FAILURE);
@@ -35,27 +37,28 @@ int openFile(char *name)
 }
 void writeToSnap(int fd, ino_t ino, char *filePath, off_t size)
 {
-    char buff[256];
-    sprintf(buff, "%ju|%s|%jd\n", (uintmax_t)ino, filePath, (intmax_t)size);
+    char buff[5000];
+    sprintf(buff, "%ju|%s|%ju\n", (uintmax_t)ino, filePath, (uintmax_t)size);
     write(fd, buff, strlen(buff));
 }
-void TakeSnapshot(const char *nameDir, int snap)
+void TakeSnapshot(const char *nameDir, int snap, const char *InitDir)
 {
+    char abspath[PATH_MAX];
     DIR *Din;
     if ((Din = opendir(nameDir)) == NULL)
     {
         perror("opendir");
         exit(EXIT_FAILURE);
     }
+    realpath(nameDir, abspath);
     struct dirent *entry = NULL;
     while ((entry = readdir(Din)) != NULL)
     {
-        char path[259];
+        char path[4353];
         struct stat st;
         if (strcmp(entry->d_name, ".") != 0 && strcmp(entry->d_name, "..") != 0)
         {
-            sprintf(path, "%s/%s", nameDir, entry->d_name);
-            printf("%s\n", path);
+            sprintf(path, "%s/%s", abspath, entry->d_name);
             if (stat(path, &st) != 0)
             {
                 perror("stat");
@@ -67,12 +70,79 @@ void TakeSnapshot(const char *nameDir, int snap)
             }
             if (S_ISDIR(st.st_mode))
             {
-                TakeSnapshot(path, snap);
+                TakeSnapshot(path, snap, InitDir);
             }
         }
     }
+    if (strcmp(nameDir, InitDir) == 0)
+    {
+        close(snap);
+    }
 }
-
+void verifyDiff(const char *snapFile, const char *nameDir)
+{
+    int snap_actual = openFile("SnapshotActual.txt");
+    TakeSnapshot(nameDir, snap_actual, nameDir);
+    close(snap_actual);
+    FILE *snap;
+    FILE *snap_act;
+    FILE *snap_r;
+    char line[5000];
+    char filePath[4096];
+    off_t size;
+    ino_t inode;
+    struct stat st;
+    int snap_size;
+    int snap_ac_size;
+    if ((snap = fopen(snapFile, "r")) == NULL)
+    {
+        perror("fopen");
+        exit(EXIT_FAILURE);
+    }
+    if ((snap = fopen("SnapshotActual.txt", "r")) == NULL)
+    {
+        perror("fopen");
+        exit(EXIT_FAILURE);
+    }
+    if (stat(snapFile, &st) != 0)
+    {
+        perror("stat");
+        exit(EXIT_FAILURE);
+    }
+    snap_size = st.st_size;
+    if (stat("SnapshotActual.txt", &st) != 0)
+    {
+        perror("stat");
+        exit(EXIT_FAILURE);
+    }
+    snap_ac_size = st.st_size;
+    if (snap_ac_size > snap_size)
+    {
+        snap_r = snap_act;
+    }
+    else
+    {
+        snap_r = snap;
+    }
+    fgets(line, 5000, snap_r);
+    while (fgets(line, 5000, snap_r))
+    {
+        inode = atoi(strtok(line, "|"));
+        strcpy(filePath, strtok(NULL, "|"));
+        size = atoi(strtok(NULL, "|"));
+        if (stat(filePath, &st) != 0)
+        {
+            printf("Fisierul:%s a fost sters\n", filePath);
+        }
+        if (st.st_size - size != 0)
+        {
+            printf("Fisierul:%s si-a modificat dimensiunea\n", filePath);
+        }
+    }
+    fclose(snap);
+    remove(snapFile);
+    rename("SnapshotActual.txt", "Snapshot.txt");
+}
 int main(int arcgv, char **arcg)
 {
     if (arcgv != 2)
@@ -81,7 +151,7 @@ int main(int arcgv, char **arcg)
         exit(EXIT_FAILURE);
     }
     int snap = openFile("Snapshot.txt");
-    TakeSnapshot(arcg[1], snap);
-    close(snap);
+    TakeSnapshot(arcg[1], snap, arcg[1]);
+    verifyDiff("Snapshot.txt", arcg[1]);
     return 0;
 }
