@@ -10,6 +10,12 @@
 #include <inttypes.h>
 #include <linux/limits.h>
 #include <stdlib.h>
+typedef struct files
+{
+    ino_t inode;
+    char fpath[4096];
+    off_t size;
+} files;
 int fileExists(const char *snap)
 {
     struct stat buf;
@@ -79,69 +85,75 @@ void TakeSnapshot(const char *nameDir, int snap, const char *InitDir)
         close(snap);
     }
 }
+files *addFile(files *f, const char *fileName, int *nr)
+{
+    int n = 10;
+    FILE *fin;
+    char linie[5000];
+    if ((fin = fopen(fileName, "r")) == NULL)
+    {
+        perror("fopen");
+        exit(EXIT_FAILURE);
+    }
+    if ((f = malloc(sizeof(files) * n)) == NULL)
+    {
+        perror("malloc");
+        exit(EXIT_FAILURE);
+    }
+    fgets(linie, 5000, fin);
+    while (fgets(linie, 5000, fin))
+    {
+        if (*nr < n)
+        {
+            f[(*nr)].inode = atoi(strtok(linie, "|"));
+            strcpy(f[(*nr)].fpath, strtok(NULL, "|"));
+            f[(*nr)++].size = atoi(strtok(NULL, "|"));
+        }
+        else
+        {
+            n = n * 2;
+            if ((f = realloc(f, sizeof(files) * n)) == NULL)
+            {
+                perror("malloc");
+                exit(EXIT_FAILURE);
+            }
+            f[(*nr)].inode = atoi(strtok(linie, "|"));
+            strcpy(f[(*nr)].fpath, strtok(NULL, "|"));
+            f[(*nr)++].size = atoi(strtok(NULL, "|"));
+        }
+    }
+    fclose(fin);
+    return f;
+}
+void compareSnapshots(files *f1, int n1, files *f2, int n2)
+{
+    for (int i = 0; i < n1; i++)
+    {
+        for (int j = 0; j < n2; j++)
+        {
+            if (f1[i].inode == f2[j].inode && strcmp(f1[i].fpath,f2[j].fpath)!=0)
+            {
+                printf("file %s was renamed to %s",f1[i].fpath,f2[i].fpath);
+            }
+        }
+    }
+}
 void verifyDiff(const char *snapFile, const char *nameDir)
 {
-    int snap_actual = openFile("SnapshotActual.txt");
+    files *f = NULL;
+    files *fa = NULL;
+    char sa[] = "SnapshotActual.txt";
+    int n = 0;
+    int na = 0;
+    int snap_actual = openFile(sa);
     TakeSnapshot(nameDir, snap_actual, nameDir);
     close(snap_actual);
-    FILE *snap;
-    FILE *snap_act;
-    FILE *snap_r;
-    char line[5000];
-    char filePath[4096];
-    off_t size;
-    ino_t inode;
-    struct stat st;
-    int snap_size;
-    int snap_ac_size;
-    if ((snap = fopen(snapFile, "r")) == NULL)
-    {
-        perror("fopen");
-        exit(EXIT_FAILURE);
-    }
-    if ((snap = fopen("SnapshotActual.txt", "r")) == NULL)
-    {
-        perror("fopen");
-        exit(EXIT_FAILURE);
-    }
-    if (stat(snapFile, &st) != 0)
-    {
-        perror("stat");
-        exit(EXIT_FAILURE);
-    }
-    snap_size = st.st_size;
-    if (stat("SnapshotActual.txt", &st) != 0)
-    {
-        perror("stat");
-        exit(EXIT_FAILURE);
-    }
-    snap_ac_size = st.st_size;
-    if (snap_ac_size > snap_size)
-    {
-        snap_r = snap_act;
-    }
-    else
-    {
-        snap_r = snap;
-    }
-    fgets(line, 5000, snap_r);
-    while (fgets(line, 5000, snap_r))
-    {
-        inode = atoi(strtok(line, "|"));
-        strcpy(filePath, strtok(NULL, "|"));
-        size = atoi(strtok(NULL, "|"));
-        if (stat(filePath, &st) != 0)
-        {
-            printf("Fisierul:%s a fost sters\n", filePath);
-        }
-        if (st.st_size - size != 0)
-        {
-            printf("Fisierul:%s si-a modificat dimensiunea\n", filePath);
-        }
-    }
-    fclose(snap);
+    f = addFile(f, snapFile, &n);
+    fa = addFile(fa, sa, &na);
     remove(snapFile);
-    rename("SnapshotActual.txt", "Snapshot.txt");
+    rename(sa, snapFile);
+    free(f);
+    free(fa);
 }
 int main(int arcgv, char **arcg)
 {
@@ -150,8 +162,11 @@ int main(int arcgv, char **arcg)
         printf("Usage:./dir_snap <Input Directory>");
         exit(EXIT_FAILURE);
     }
+    files *f = NULL;
+    int n = 0;
     int snap = openFile("Snapshot.txt");
     TakeSnapshot(arcg[1], snap, arcg[1]);
+    // addFile(f,"Snapshot.txt",&n);
     verifyDiff("Snapshot.txt", arcg[1]);
     return 0;
 }
