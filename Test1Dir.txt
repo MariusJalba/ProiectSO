@@ -1,0 +1,2 @@
+Inode|FileName|Size
+540917|/home/marius/ProiectSO/Test1Dir/b.c|0

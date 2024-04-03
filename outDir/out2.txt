@@ -1,0 +1,3 @@
+File /home/marius/ProiectSO/TestDir/8.c was deleted
+file /home/marius/ProiectSO/TestDir/lab13/size.c was renamed to /home/marius/ProiectSO/TestDir/lab13/size23.c
+File /home/marius/ProiectSO/TestDir/lab13/a.c was added
