@@ -10,6 +10,7 @@
 #include <inttypes.h>
 #include <linux/limits.h>
 #include <stdlib.h>
+#include <sys/wait.h>
 typedef struct files
 {
     ino_t inode;
@@ -110,6 +111,7 @@ files *addFile(files *f, const char *fileName, int *nr)
     if ((fin = fopen(fileName, "r")) == NULL)
     {
         perror("fopen");
+        printf("%s\n", fileName);
         exit(EXIT_FAILURE);
     }
     if ((f = malloc(sizeof(files) * n)) == NULL)
@@ -151,6 +153,7 @@ void compareSnapshots(files *f1, int n1, files *f2, int n2, int i, const char *n
     if ((fout = fopen(outbuff, "w")) == NULL)
     {
         perror("fopen");
+        printf("%s\n", outbuff);
         exit(EXIT_FAILURE);
     }
     int found = 0;
@@ -199,7 +202,8 @@ void verifyDiff(const char *snapFile, const char *nameDir, int i, const char *na
 {
     files *f = NULL;
     files *fa = NULL;
-    char sa[] = "SnapshotActual.txt";
+    char sa[200];
+    sprintf(sa, "SnapshotActual%d.txt", i);
     int n = 0;
     int na = 0;
     int snap_actual = openFile(sa);
@@ -239,18 +243,30 @@ int main(int arcgv, char **arcg)
     int n = 0;
     char buff[20];
     char *nameOutDir = arcg[1];
+    int pid;
+    int status;
     for (int i = 2; i < arcgv; i++)
     {
-        sprintf(buff, "%s.txt", arcg[i]);
-        if (fileExists(buff))
+
+        if ((pid = fork()) < 0)
         {
-            verifyDiff(buff, arcg[i], i, nameOutDir);
+            perror("Fork error");
+            exit(-1);
         }
-        else
+        if (pid == 0)
         {
             sprintf(buff, "%s.txt", arcg[i]);
-            int snap = openFile(buff);
-            TakeSnapshot(arcg[i], snap, arcg[i]);
+            if (fileExists(buff))
+            {
+                verifyDiff(buff, arcg[i], i, nameOutDir);
+            }
+            else
+            {
+                sprintf(buff, "%s.txt", arcg[i]);
+                int snap = openFile(buff);
+                TakeSnapshot(arcg[i], snap, arcg[i]);
+            }
+            exit(i);
         }
     }
     return 0;

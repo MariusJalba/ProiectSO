@@ -1,0 +1,35 @@
+File /home/marius/ProiectSO/C++/CodeBlocks/test.cpp was deleted
+File /home/marius/ProiectSO/C++/CodeBlocks/ex 8 (a) p 154.cpp was deleted
+File /home/marius/ProiectSO/C++/CodeBlocks/ex 5 (c) p148.cpp was deleted
+File /home/marius/ProiectSO/C++/CodeBlocks/triunghi was deleted
+File /home/marius/ProiectSO/C++/CodeBlocks/ex 8 (c) p 144.cpp was deleted
+File /home/marius/ProiectSO/C++/CodeBlocks/ex 10 p 144.cpp was deleted
+File /home/marius/ProiectSO/C++/CodeBlocks/goto.cpp was deleted
+File /home/marius/ProiectSO/C++/CodeBlocks/c++.exe was deleted
+File /home/marius/ProiectSO/C++/CodeBlocks/ex 8 (C) p154.cpp was deleted
+File /home/marius/ProiectSO/C++/CodeBlocks/ex 5 p 158.cpp was deleted
+File /home/marius/ProiectSO/C++/CodeBlocks/c++.cpp was deleted
+File /home/marius/ProiectSO/C++/CodeBlocks/ex 5 (b) p 148.cpp was deleted
+File /home/marius/ProiectSO/C++/CodeBlocks/ex 8 p 158.cpp was deleted
+File /home/marius/ProiectSO/C++/CodeBlocks/ex 5 (a) p 148.cpp was deleted
+File /home/marius/ProiectSO/C++/CodeBlocks/triunghi.cpp was deleted
+File /home/marius/ProiectSO/C++/CodeBlocks/ex 8 (h) p154.cpp was deleted
+File /home/marius/ProiectSO/C++/CodeBlocks/calculator.cpp was deleted
+File /home/marius/ProiectSO/C++/CodeBlocks/ex 8 (a)p 144.cpp was deleted
+File /home/marius/ProiectSO/C++/CodeBlocks/p6.c was deleted
+File /home/marius/ProiectSO/C++/CodeBlocks/ex 8(b) p 144.cpp was deleted
+File /home/marius/ProiectSO/C++/CodeBlocks/ex 8(b) p154.cpp was deleted
+File /home/marius/ProiectSO/C++/CodeBlocks/ex 8 (d) p144.cpp was deleted
+File /home/marius/ProiectSO/C++/CodeBlocks/Untitled1.c was deleted
+File /home/marius/ProiectSO/C++/CodeBlocks/ex 4 p 157.cpp was deleted
+File /home/marius/ProiectSO/C++/CodeBlocks/zile saptamana case.cpp was deleted
+File /home/marius/ProiectSO/C++/CodeBlocks/ecuatie gradu2.cpp was deleted
+File /home/marius/ProiectSO/C++/CodeBlocks/calculator.exe was deleted
+File /home/marius/ProiectSO/C++/CodeBlocks/main.c was deleted
+File /home/marius/ProiectSO/C++/CodeBlocks/ex 8 (j) p154.cpp was deleted
+File /home/marius/ProiectSO/C++/CodeBlocks/for a to z.cpp was deleted
+File /home/marius/ProiectSO/C++/CodeBlocks/ex 9 p 144.cpp was deleted
+File /home/marius/ProiectSO/C++/CodeBlocks/Zile was deleted
+File /home/marius/ProiectSO/C++/CodeBlocks/for.cpp was deleted
+File /home/marius/ProiectSO/C++/CodeBlocks/function.cpp was deleted
+File /home/marius/ProiectSO/C++/CodeBlocks/ex 4 (a,b) p 151.cpp was deleted
