@@ -1,1 +1,0 @@
-file /home/marius/ProiectSO/TestDir/Cautari/2.c was renamed to /home/marius/ProiectSO/TestDir/Cautari/dkmskajdjh.c

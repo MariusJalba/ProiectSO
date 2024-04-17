@@ -48,8 +48,9 @@ void writeToSnap(int fd, ino_t ino, char *filePath, off_t size)
     sprintf(buff, "%ju|%s|%ju\n", (uintmax_t)ino, filePath, (uintmax_t)size);
     write(fd, buff, strlen(buff));
 }
-void TakeSnapshot(const char *nameDir, int snap, const char *InitDir)
+void TakeSnapshot(const char *nameDir, int snap, const char *InitDir, char *izolatedDir)
 {
+    int pid = 0;
     char abspath[PATH_MAX];
     DIR *Din;
     if ((Din = opendir(nameDir)) == NULL)
@@ -73,11 +74,37 @@ void TakeSnapshot(const char *nameDir, int snap, const char *InitDir)
             }
             if (S_ISREG(st.st_mode))
             {
-                writeToSnap(snap, st.st_ino, path, st.st_size);
+                if (st.st_mode == 32768)
+                {
+                    mode_t mode = S_IRUSR | S_IWUSR | S_IXUSR | S_IRGRP | S_IROTH;
+                    if (chmod(path, mode) < 0)
+                    {
+                        perror("Error in chmod");
+                        exit(EXIT_FAILURE);
+                    }
+                    if ((pid = fork()) < 0)
+                    {
+                        perror("Fork error");
+                        exit(-1);
+                    }
+                    if (pid == 0)
+                    {
+                        if (execl("/bin/bash", "bash", "verify_for_malicious.sh", path, izolatedDir, (char *)NULL) == -1)
+                        {
+                            perror("execl failed: ");
+                            exit(EXIT_FAILURE);
+                        }
+                        exit(pid);
+                    }
+                }
+                else
+                {
+                    writeToSnap(snap, st.st_ino, path, st.st_size);
+                }
             }
             if (S_ISDIR(st.st_mode))
             {
-                TakeSnapshot(path, snap, InitDir);
+                TakeSnapshot(path, snap, InitDir, izolatedDir);
             }
         }
     }
@@ -197,8 +224,7 @@ void compareSnapshots(files *f1, int n1, files *f2, int n2, int i, const char *n
     }
     fclose(fout);
 }
-
-void verifyDiff(const char *snapFile, const char *nameDir, int i, const char *nameOutDir)
+void verifyDiff(const char *snapFile, const char *nameDir, int i, const char *nameOutDir, char *izolatedDir)
 {
     files *f = NULL;
     files *fa = NULL;
@@ -207,7 +233,7 @@ void verifyDiff(const char *snapFile, const char *nameDir, int i, const char *na
     int n = 0;
     int na = 0;
     int snap_actual = openFile(sa);
-    TakeSnapshot(nameDir, snap_actual, nameDir);
+    TakeSnapshot(nameDir, snap_actual, nameDir, izolatedDir);
     close(snap_actual);
     f = addFile(f, snapFile, &n);
     fa = addFile(fa, sa, &na);
@@ -235,7 +261,7 @@ int main(int arcgv, char **arcg)
 {
     if (arcgv < 3 || arcgv > 10)
     {
-        printf("Usage:./dir_snap <Output Directory> <Input Directory> <Input Directory> .....");
+        printf("Usage:./dir_snap <Izolated Dir> <Output Directory> <Input Directory> <Input Directory> .....");
         printf("Maximum 10 arguments are allowed");
         exit(EXIT_FAILURE);
     }
@@ -245,9 +271,8 @@ int main(int arcgv, char **arcg)
     char *nameOutDir = arcg[1];
     int pid;
     int status;
-    for (int i = 2; i < arcgv; i++)
+    for (int i = 3; i < arcgv; i++)
     {
-
         if ((pid = fork()) < 0)
         {
             perror("Fork error");
@@ -258,14 +283,17 @@ int main(int arcgv, char **arcg)
             sprintf(buff, "%s.txt", arcg[i]);
             if (fileExists(buff))
             {
-                verifyDiff(buff, arcg[i], i, nameOutDir);
+                verifyDiff(buff, arcg[i], i, nameOutDir, arcg[2]);
+                printf("Snapshot for directory %d was verified succesfully\n", i);
             }
             else
             {
                 sprintf(buff, "%s.txt", arcg[i]);
                 int snap = openFile(buff);
-                TakeSnapshot(arcg[i], snap, arcg[i]);
+                TakeSnapshot(arcg[i], snap, arcg[i], arcg[2]);
+                printf("Snapshot for directory %d was created succesfully\n", i);
             }
+            printf("Child Process %d terminated with PID %d and exit code %d\n", i, getpid(), i);
             exit(i);
         }
     }

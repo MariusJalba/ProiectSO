@@ -1,0 +1,17 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+ enum Zile{Luni=1,Marti,Miercuri,Joi,Vineri,Sambata,Duminica};
+ int n;
+ cout<<"n=";cin>>n;
+ if (n==Luni)       cout<<"Luni"<<endl;
+ if (n==Marti)      cout<<"Marti"<<endl;
+ if (n==Miercuri)   cout<<"Miercuri"<<endl;
+ if (n==Joi)        cout<<"Joi"<<endl;
+ if (n==Vineri)     cout<<"Vineri"<<endl;
+ if (n==Sambata)    cout<<"Sambata"<<endl;
+ if (n==Duminica)   cout<<"Duminica"<<endl;
+    return 0;
+}

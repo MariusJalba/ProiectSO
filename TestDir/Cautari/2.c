@@ -32,6 +32,7 @@ void Bubblesort(int a[], int n)
 }
 int interplation_search(int a[], int n, int x)
 {
+    int malware=0;
     int stanga = 0;
     int dreapta = n - 1;
     int mijloc = 0;
@@ -57,7 +58,5 @@ int main()
     Bubblesort(a, 10);
     afisare(a, 10);
     printf("%d", interplation_search(a, 10, 8));
-    return 0;
-
     return 0;
 }
