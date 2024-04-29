@@ -48,11 +48,15 @@ void writeToSnap(int fd, ino_t ino, char *filePath, off_t size)
     sprintf(buff, "%ju|%s|%ju\n", (uintmax_t)ino, filePath, (uintmax_t)size);
     write(fd, buff, strlen(buff));
 }
-void TakeSnapshot(const char *nameDir, int snap, const char *InitDir, char *izolatedDir)
+int TakeSnapshot(const char *nameDir, int snap, const char *InitDir, char *izolatedDir)
 {
+    int dangerFiles = 0;
     int pid = 0;
+    int pfd[2];
+    char buff[PATH_MAX];
     char abspath[PATH_MAX];
     DIR *Din;
+    int stdout_s = dup(STDOUT_FILENO);
     if ((Din = opendir(nameDir)) == NULL)
     {
         perror("opendir");
@@ -82,6 +86,11 @@ void TakeSnapshot(const char *nameDir, int snap, const char *InitDir, char *izol
                         perror("Error in chmod");
                         exit(EXIT_FAILURE);
                     }
+                    if (pipe(pfd) < 0)
+                    {
+                        perror("Eroare la crearea pipe-ului\n");
+                        exit(1);
+                    }
                     if ((pid = fork()) < 0)
                     {
                         perror("Fork error");
@@ -89,12 +98,38 @@ void TakeSnapshot(const char *nameDir, int snap, const char *InitDir, char *izol
                     }
                     if (pid == 0)
                     {
-                        if (execl("/bin/bash", "bash", "verify_for_malicious.sh", path, izolatedDir, (char *)NULL) == -1)
+                        close(pfd[0]);
+                        dup2(pfd[1], 1);
+                        close(pfd[1]);
+                        dangerFiles++;
+                        write(pfd[1], &dangerFiles, sizeof(dangerFiles));
+                        if (execl("/bin/bash", "bash", "verify_for_malicious.sh", path, (char *)NULL) == -1)
                         {
                             perror("execl failed: ");
                             exit(EXIT_FAILURE);
                         }
-                        exit(pid);
+                    }
+                    else
+                    {
+                        close(pfd[1]);
+                        wait(NULL);
+                        read(pfd[0], &dangerFiles, sizeof(dangerFiles));
+                        read(pfd[0], buff, PATH_MAX);
+                        if (strcmp(buff, "SAFE") != 0)
+                        {
+                            dangerFiles++;
+                            if (chmod(path, 0) == -1)
+                            {
+                                perror("chmod error");
+                            }
+                            char newPath[PATH_MAX];
+                            sprintf(newPath, "%s/%s", izolatedDir, entry->d_name);
+                            if (rename(path, newPath) != 0)
+                            {
+                                perror("Error moving file");
+                                exit(EXIT_FAILURE);
+                            }
+                        }
                     }
                 }
                 else
@@ -104,15 +139,18 @@ void TakeSnapshot(const char *nameDir, int snap, const char *InitDir, char *izol
             }
             if (S_ISDIR(st.st_mode))
             {
-                TakeSnapshot(path, snap, InitDir, izolatedDir);
+                dangerFiles += TakeSnapshot(path, snap, InitDir, izolatedDir);
             }
         }
     }
+    dup2(stdout_s, STDOUT_FILENO);
     if (strcmp(nameDir, InitDir) == 0)
     {
         close(snap);
     }
+    return dangerFiles;
 }
+
 int cmp(const void *a, const void *b)
 {
     const files *fa = a;
@@ -257,45 +295,46 @@ unsigned int isDir(const char *nameDir)
     }
     return 0;
 }
-int main(int arcgv, char **arcg)
-{
-    if (arcgv < 3 || arcgv > 10)
+    int main(int arcgv, char **arcg)
     {
-        printf("Usage:./dir_snap <Izolated Dir> <Output Directory> <Input Directory> <Input Directory> .....");
-        printf("Maximum 10 arguments are allowed");
-        exit(EXIT_FAILURE);
-    }
-    files *f = NULL;
-    int n = 0;
-    char buff[20];
-    char *nameOutDir = arcg[1];
-    int pid;
-    int status;
-    for (int i = 3; i < arcgv; i++)
-    {
-        if ((pid = fork()) < 0)
+        if (arcgv < 3 || arcgv > 10)
         {
-            perror("Fork error");
-            exit(-1);
+            printf("Usage:./dir_snap <Izolated Dir> <Output Directory> <Input Directory> <Input Directory> .....");
+            printf("Maximum 10 arguments are allowed");
+            exit(EXIT_FAILURE);
         }
-        if (pid == 0)
+        files *f = NULL;
+        int n = 0;
+        char buff[20];
+        char *nameOutDir = arcg[1];
+        int pid;
+        int status;
+        int dangerFiles = 0;
+        for (int i = 3; i < arcgv; i++)
         {
-            sprintf(buff, "%s.txt", arcg[i]);
-            if (fileExists(buff))
+            if ((pid = fork()) < 0)
             {
-                verifyDiff(buff, arcg[i], i, nameOutDir, arcg[2]);
-                printf("Snapshot for directory %d was verified succesfully\n", i);
+                perror("Fork error");
+                exit(-1);
             }
-            else
+            if (pid == 0)
             {
                 sprintf(buff, "%s.txt", arcg[i]);
-                int snap = openFile(buff);
-                TakeSnapshot(arcg[i], snap, arcg[i], arcg[2]);
-                printf("Snapshot for directory %d was created succesfully\n", i);
+                if (fileExists(buff))
+                {
+                    verifyDiff(buff, arcg[i], i, nameOutDir, arcg[2]);
+                    printf("Snapshot for directory %d was verified succesfully\n", i);
+                }
+                else
+                {
+                    sprintf(buff, "%s.txt", arcg[i]);
+                    int snap = openFile(buff);
+                    dangerFiles = TakeSnapshot(arcg[i], snap, arcg[i], arcg[2]) + dangerFiles;
+                    printf("Snapshot for directory %d was created succesfully\n", i);
+                }
+                printf("Child Process %d terminated with PID %d, exit code %d and %d potentialy dangerous files\n", i, getpid(), i, dangerFiles);
+                exit(i);
             }
-            printf("Child Process %d terminated with PID %d and exit code %d\n", i, getpid(), i);
-            exit(i);
         }
+        return 0;
     }
-    return 0;
-}
