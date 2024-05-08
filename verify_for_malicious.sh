@@ -9,7 +9,7 @@ periculos=0
 linii=$(wc -l "$1" | cut -f 1 -d ' ')
 cuvinte=$(wc -w "$1" | cut -f 1 -d ' ')
 caractere=$(wc -c "$1" | cut -f 1 -d ' ')
-if [ $linii -lt 3 ] || [ $cuvinte -gt 1000 ] || [ $caractere -gt 2000 ]
+if [ $linii -lt 3 ] && [ $cuvinte -gt 1000 ] && [ $caractere -gt 2000 ]
 then
     periculos=0
     while read -r linie 

@@ -27,6 +27,5 @@ Inode|FileName|Size
 538569|/home/marius/ProiectSO/TestDir/lab13/fisiere_text/out3.txt|0
 538392|/home/marius/ProiectSO/TestDir/lab13/fisiere_text/indemnizatie.txt|1801
 538628|/home/marius/ProiectSO/TestDir/lab13/fisiere_text/point3s.c|1775
-538504|/home/marius/ProiectSO/TestDir/mal.txt|10
 546029|/home/marius/ProiectSO/TestDir/Cautari/2.c|1280
 524682|/home/marius/ProiectSO/TestDir/Cautari/21.c|0

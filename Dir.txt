@@ -1,1 +1,2 @@
 Inode|FileName|Size
+538528|/home/marius/ProiectSO/Dir/1.txt|0
