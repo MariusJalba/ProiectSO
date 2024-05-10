@@ -136,7 +136,7 @@ int TakeSnapshot(const char *nameDir, int snap, const char *InitDir, char *izola
             }
             if (S_ISDIR(st.st_mode))
             {
-                TakeSnapshot(path, snap, InitDir, izolatedDir, dangerFiles);
+                dangerFiles=TakeSnapshot(path, snap, InitDir, izolatedDir, dangerFiles);
             }
         }
     }
@@ -270,7 +270,7 @@ int verifyDiff(const char *snapFile, const char *nameDir, int i, const char *nam
     int n = 0;
     int na = 0;
     int snap_actual = openFile(sa);
-    dangerFiles+=TakeSnapshot(nameDir, snap_actual, nameDir, izolatedDir, 0);
+    dangerFiles=TakeSnapshot(nameDir, snap_actual, nameDir, izolatedDir, dangerFiles);
     close(snap_actual);
     f = addFile(f, snapFile, &n);
     fa = addFile(fa, sa, &na);
@@ -328,14 +328,13 @@ int main(int argc, char **argv)
             {
                 sprintf(buff, "%s.txt", argv[i]);
                 int snap = openFile(buff);
-                dangerFiles += TakeSnapshot(argv[i], snap, argv[i], argv[2], dangerFiles);
+                dangerFiles = TakeSnapshot(argv[i], snap, argv[i], argv[2], dangerFiles);
                 close(snap);
                 printf("Snapshot for directory %d was created successfully\n", i);
                 printf("Child process %d has terminated with pid %d and found %d dangerous files\n", i, getpid(), dangerFiles);
             }
             exit(pid);
         }
-        wait(NULL);
     }
     return 0;
 }
